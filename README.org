@@ -23,10 +23,14 @@ Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-
 ** Conferences
 Group members are encouraged to present their research at conferences. Information about attending conferences can be found on the [[./Conferences.org][Conferences]] page.
 ** Publishing
+Group members are expected to publish as part of their degree or post-doctoral work. Information about publishing in the group can be found on the [[./Publishing.org][Publishing]] page.
+
 ** Reviewing
 Before a scientific paper is published, it goes through peer review.  Information on the review process can be found on the [[./Reviewing.org][Reviewing]] page.
 ** Group citizenship
+Be nice to everyone in the group, and leave the group better than you found it.
 ** (Semi-)Annual Reports
+At the end of (June and ) December each year Schneider would like an "accomplishments" report to use as a basis for a one-on-one discussion about research progress, future research directions, graduation plans, and post graduation plans. A Google template of the report is available [[https://docs.google.com/document/d/1iE3TTGabHms91O3ROaeS4I6eMvXUWOcUPAnLGrt7Hlg/edit][here]]. (Create a copy before typing in this!)  Someone needs to create an org version!
 ** Work Week and Time Off
 Graduate school is generally not a 40 hour a week job, at least if you hope to graduate before funding runs out. Work hard and have fun. Some people are early birds, some are night owls. Whatever the case, try to be in the office between the hours 10 am - 4 pm, when most meetings are held. The University has a number of holidays, plus you are "officially" given two weeks a year of vacation. Be courteous and let your coworkers and supervisors know when you'll be out of the office.
 ** Sick Leave

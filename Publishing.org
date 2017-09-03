@@ -1,0 +1,53 @@
+Return to [[./README.org][Main Page]].
+
+* Background
+This page is to provide guidance to members of the Schneider group relating to preparing and publishing research articles. A list of publications from the Schneider group can be found at the [[https://www.nd.edu/~wschnei1][Publications website]].
+
+* Overview of the publication process
+For those who may be publishing for the first time, or just new to the group, this summary may be helpful in understanding the various steps along the way to getting a paper published. Publications are the primary products of research, and are essential to professional advancement.
+
+Schneider's [[./WFS-GradWriting.pdf][presentation]] on scientific writing might also be a useful resource.
+
+** Outlining
+The first step in creating a paper in the group is to create an outline. Follow good outlining practices: uses bullets and sub-bullets and sub-sub-bullets to create a nicely structured, organized document. Getting your ideas well organized helps both in writing and in recognizing any gaps you need to file in. [[http://orgmode.org/][org-mode]] in [[https://comselwiki.crc.nd.edu/index.php/Emacs][emacs]] is a powerful approach for creating outlines (and doing much much more) and is the preferred format. Alternatively create your outline as a shared Google doc, so that it can be edited without have to pass files back and forth.
+
+Outlining should be done in two stages.
+
+*** Stage 1
+Stage 1 outline should have three sections: *Key insights* are a bullet list of the main new ideas that you are contributing to the literature. *Introduction* is an organized outline of the context of the work. It answers the questions (1) What is the general problem area of this work? and (2) What have others done to address this problem? It should include the key relevant references. *Results* is an organized outline of /what you did/, including Figures and Tables that are referenced in the outline.
+
+*** Stage 2
+After you and Schneider agree on the Stage 1 outline, you can move to Stage 2. Every paper will have an Introduction, Computational Details, Results, Discussion, and Conclusions. The outline should include the main ideas to be captured in each of these sections. The Introduction is often the hardest part, as it sets the context of the work with respect to other related work in the literature. It explains why you are studying what you are studying. The last paragraph of the Introduction always provides a short summary of what follows in the paper. It is very important to distinguish in your mind Results---the actual things that you did in your work---and Discussion---the insights and interpretations that derive from those Results. The Results section should provide enough detail that some other worker, either in the Group or elsewhere, could reproduce your work. It is often supplemented with a Supplementary Details document, which contains further details not necessary to be published in the Journal but useful for future readers. The Conclusions place the work in context of the field, calls out the important steps forward in the paper, and perhaps suggests next steps.
+
+Once you have a finalized outline, move it into the software that you will use to prepare the manuscript. The two most common tools used in the group are Word and \LaTeX. Word is full featured and WYSIWIG, and is easiest to use if the paper involves collaborations outside the group. For documents that only have Group co-authors, you are strongly encouraged/required to use \LaTeX or, even better,  [[http://orgmode.org/][org-mode]] in [[https://comselwiki.crc.nd.edu/index.php/Emacs][emacs]].  \LaTeX is more archane but much more powerful than Word. It is a formatting language, and has to be used in combination with a separate text editor. Higher barrier to entry, but well worth it for large and complex documents (such as a dissertation).  [[http://orgmode.org/][org-mode]] simplifies preparation of \LaTeX documents.
+
+** Drafts
+Once you and Schneider have converged on the outline, you will create a full draft of the manuscript. You will want to follow whatever formatting guidelines the intended journal provides. Follow good English grammar and write in the first person. Include references using some bibliography software. If English is not your native language, you can ask someone else in the group to review the grammar in the draft. Keep complete copies of all the draft materials---text, figures, bibliograpy, etc.---on the Group filespace or, even better, as a git repo.
+
+** Iterative editing with coauthors
+Whether you are collaborating with another group, or you and Dr. Schneider are the sole authors, once you have a draft you are happy with, it must be approved by all of the coauthors. They will certainly have suggestions, corrections, etc. they will ask you to make. You then make corrections and changes and continue asking for feedback iteratively until the manuscript "converges" to meet the satisfaction of everyone involved.
+
+If you haven't already done so, then during this process you should definitely select which journal you will be submitting the paper to. Each journal has different requirements about length, document format, figures, acceptable file formats, etc. These requirements can be found on the journal website, usually under a section called "Instructions for authors".
+
+** Supplementary information
+The exact details of your computational methods and raw results are often better reported in a secondary Supplementary Information document.  The format of this document is flexible, but it should contain all the raw information (input files, CONTCARS, ...)  necessary to support any of the reported calculations.
+
+** Submitting the paper
+Once a manuscript is prepared and properly formatted, it is ready to be submitted. Almost all papers go through at least one revision after submission, so don't be deterred from submitting by tiny formatting issues.
+
+Schneider will often take care of submitting the paper, or he may ask you to help with one or more parts of the process. Most journals use an online submission process, where the manuscript files are uploaded, and other online forms are filled out. Again, each journal will differ slightly. Authors are usually asked to provide names of possible reviewers, as well as anyone who should be excluded from the review.
+
+Once submitted, the manuscript goes through various stages of review, and these can sometimes be tracked on the journal website. It is first assigned to an editor, and the editor then sends it to two or three reviewers. Once their reviews are returned, the editor considers the comments and recommendations of each reviewer and makes a decision regarding acceptance.
+
+Common responses received from the editor:
+- Accept as-is (rare!)
+- Reconsider after minor revisions
+- Reconsider after major revisions
+- Submit to a different journal
+- Reject
+
+** Revisions
+The editor will usually set a deadline for returning the revised manuscript, ranging from a couple weeks to a few months, depending on the extent of revisions.
+
+** Published
+Once a paper is accepted and on the web, put a copy of the pdf in at GDrive/Group/Publications.  More importantly, gather all the relevant calculations into a file tree and copy to the Group afs space so it can be referred to should we be contacted for further information.
