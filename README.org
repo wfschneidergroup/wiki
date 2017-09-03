@@ -1,6 +1,6 @@
 Welcome to the Schneider group wiki page.  Additional information can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
-This page is intended to be used as a portal for sharing information within the group. Feel free to post information or tutorials regarding scripts, codes, tips, tricks, etc.
+This repo is intended to be used as a portal for sharing information within the group. Feel free to post information or tutorials regarding scripts, codes, tips, tricks, etc.
 
 * General Information
 Group correspondence can be addressed to [[mailto:SchneiderGroup@listserv.nd.edu][SchneiderGroup@listserv.nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.
@@ -9,3 +9,23 @@ Group correspondence can be addressed to [[mailto:SchneiderGroup@listserv.nd.edu
 Some tips on getting started in the Group can be found on the [[./New-Group-Member.org][New-Group-Member]] page.
 
 * Group Resources
+
+* Meetings
+
+* Publications
+A list of published papers is available at [[www.nd.edu/~wschnei1/Publications.shtml][Publications website]].  Also, all publications are (or at least should be) available on the group shared Google space at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpRENEhWeUx4ZTRLalk][Group/Publications]].
+
+Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpREdkl1cDdOanhiNDg][Group/Dissertations]].
+
+* Policies and Procedures
+** Conferences
+** Publishing
+** Group citizenship
+** (Semi-)Annual Reports
+** Work Week and Time Off
+Graduate school is generally not a 40 hour a week job, at least if you hope to graduate before funding runs out. Work hard and have fun. Some people are early birds, some are night owls. Whatever the case, try to be in the office between the hours 10 am - 4 pm, when most meetings are held. The University has a number of holidays, plus you are "officially" given two weeks a year of vacation. Be courteous and let your coworkers and supervisors know when you'll be out of the office.
+** Sick Leave
+When you are sick, please stay home.  No one in CoMSEL is interested in sharing your germs.
+
+* Group computers
+Group computers are hosted by the [[http://crc.nd.edu][Notre Dame Center for Research Computing]].
