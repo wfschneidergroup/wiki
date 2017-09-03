@@ -32,7 +32,7 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 You will also want to become familiar with emacs, org-mode, and python.
 
 
-Visit [[DFT Basics]] page to start learning about DFT.
+Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
 
 Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
 
