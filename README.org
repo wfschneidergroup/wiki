@@ -1,9 +1,10 @@
-Welcome to the Schneider group wiki page.  Additional information can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
+* Welcome!
+Welcome to the Schneider group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
-This repo is intended to be used as a portal for sharing information within the group. Feel free to post information or tutorials regarding scripts, codes, tips, tricks, etc.
+This repo is a collection of [[orgmode.org][org mode]] files created within [[https://www.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  It is intended to be used as a portal for sharing information about the group. As you get more experience with all these mysterious things, contribute ("push") new information.  Contribute to making the group a better place than how you found it.
 
 * General Information
-Group correspondence can be addressed to [[mailto:SchneiderGroup@listserv.nd.edu][SchneiderGroup@listserv.nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.
+Group correspondence can be addressed to [[mailto:SchneiderGroup-list@nd.edu][SchneiderGroup-list@nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.
 
 
 Some tips on getting started in the Group can be found on the [[./New-Group-Member.org][New-Group-Member]] page.
@@ -13,9 +14,9 @@ Some tips on getting started in the Group can be found on the [[./New-Group-Memb
 * Meetings
 
 * Publications
-A list of published papers is available at [[www.nd.edu/~wschnei1/Publications.shtml][Publications website]].  Also, all publications are (or at least should be) available on the group shared Google space at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpRENEhWeUx4ZTRLalk][Group/Publications]].
+A list of published papers is available at the [[www.nd.edu/~wschnei1/Publications.shtml][Publications website]].  Also, all publications are (or at least should be) available on the group shared Google space at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpRENEhWeUx4ZTRLalk][GDrive/Group/Publications]].
 
-Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpREdkl1cDdOanhiNDg][Group/Dissertations]].
+Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpREdkl1cDdOanhiNDg][GDrive/Group/Dissertations]].
 
 * Policies and Procedures
 ** Conferences
@@ -28,4 +29,4 @@ Graduate school is generally not a 40 hour a week job, at least if you hope to g
 When you are sick, please stay home.  No one in CoMSEL is interested in sharing your germs.
 
 * Group computers
-Group computers are hosted by the [[http://crc.nd.edu][Notre Dame Center for Research Computing]].
+Group computers are hosted by the [[http://crc.nd.edu][Notre Dame Center for Research Computing]].  Information on computers is available here.
