@@ -1,15 +1,16 @@
 * Welcome!
 Welcome to the Schneider group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
-This repo is a collection of [[orgmode.org][org mode]] files created within [[https://www.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  It is intended to be used as a portal for sharing information about the group. As you get more experience with all these mysterious things, contribute ("push") new information.  Contribute to making the group a better place than how you found it.
+This repo is a collection of [[orgmode.org][org mode]] files created within [[https://www.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  It is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer.  As you get more experience with all these mysterious things, contribute ("push") new/updated information to the repo.
 
 * General Information
-Group correspondence can be addressed to [[mailto:SchneiderGroup-list@nd.edu][SchneiderGroup-list@nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.
+Group correspondence can be addressed to [[mailto:SchneiderGroup-list@nd.edu][SchneiderGroup-list@nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.  Current and former group members are listed [[./members.org][here]].
 
-
+* New Group members
 Some tips on getting started in the Group can be found on the [[./New-Group-Member.org][New-Group-Member]] page.
 
 * Group Resources
+For information about computers, software, scripts, etc. used in the group, please visit [[./Resources.org][Group Resources]] page.
 
 * Meetings
 Schneider's group regularly attends the CoMSEL Supergroup meetings, as well as holding weekly Group meetings and topical Subgroup meetings. The schedule is shared on a [[https://calendar.google.com/calendar/embed?src=b3e5dnq5qj5dlmov44dplttt6s%40group.calendar.google.com&ctz=America/New_York][Google Calendar]]. Additional one-on-one meetings with Professor Schneider can be arranged as needed.

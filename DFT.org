@@ -1,0 +1,14 @@
+Return to [[./README.org][Main Page]].
+
+* DFT Basics
+Density Functional Theory (DFT) is a reformulation of the traditional Schrodinger equation approach to quantum mechanics. It describes the ground state properties of a system in terms of the electron density. This page will not attempt to serve as a tutorial for understanding DFT, but rather to point the interested person to useful resources where he/she can find more information on a topic.
+
+** Online introductions
+- Schneider's [[https://github.com/wfschneidergroup/CBE547][Computational Chemistry]] course on github.
+- Kitchin's introduction to [[http://kitchingroup.cheme.cmu.edu/dft-book/dft.html][DFT for various applications]].
+
+** Literature
+- [[http://dx.doi.org/10.1007/s11244-010-9451-6][Density Functional Theory: A Practical Introduction]] by David Sholl and Jan Steckel
+- [[http://dx.doi.org/10.1007/s11244-010-9451-6][DFT Versus the "Real World"]] by Peter Feibelman of Sandia National Lab
+- [[https://books.google.com/books/about/Electronic_Structure.html?id=dmRTFLpSGNsC][Electronic Structure]] by Richard Martin, if you really want to look under the hood
+- [[http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470091827.html][Essentials of Computational Chemistry]] by Christopher Cramer
