@@ -1,0 +1,39 @@
+Return to [[./README.org][Main page]].
+
+* Conferences background
+Sharing your research at conferences, hearing about the work of others, and networking, are all key to your success.  Both graduate students and postdocs will have opportunities to present their research at conferences. This benefits the group by advertising the work that we are doing, and it also benefits the individual by giving him/her experience presenting his/her work and answering questions from other experts in the field.
+
+Typicallys, graduate students will be able to attend one major conference per year in addition to one or two smaller, local conferences. Post-docs may be given the opportunity to attend more conferences.
+
+* Major conferences
+- American Institute of Chemical Engineers (AIChE) Annual Conference [[http://www.aiche.org/Conferences/AnnualMeeting/index.aspx][website]].
+- American Chemical Society (ACS) Meetings [[http://portal.acs.org/portal/acs/corg/content?_nfpb=true&_pageLabel=PP_MEETINGS&node_id=86&use_sec=false&__uuid=add53e97-30fb-400d-b458-1f913b334f9f][website]].
+- North American Catalysis Society North American Meeting (NAM) [[http://nacatsoc.org/NAMMeetings.asp][website]], held in odd years.
+- Gordon Research Conferences in [[http://www.grc.org/conferences.aspx?id=0000033][catalysis]], held in even years.
+
+* Local conferences
+- Catalysis Club of Chicago Annual Spring Symposium [[http://www.cmt.anl.gov/CCC/][website]].
+- Midwest Thermodynamics and Statistical Mechanics Conference [[http://gozips.uakron.edu/~elliot1/mtsm06.html][website]].
+
+* "Schools"
+Some organizations, notably "Suncat" at Stanford, DTU, and Telluride hold summer schools that provide more in-depth learning opportunities.
+
+* Funding for Conferences
+While research grants will often reimburse travel and conference expenses, it is encouraged to seek opportunities for external funding when possible. This is beneficial for many reasons:
+- It preserves grant money
+- It makes .Schneider like you even more
+- It is good experience to apply for funding, even for small conference travel awards
+- It looks good on your resume or CV to receive awards from nationally recognized professional organizations
+
+"Kokes" grants from the NACS and CRE Travel Awards from AIChE are particularly prestigious, and you should plan to apply at least once during your graduate career.
+
+* GSU Conference Presentation Grants
+At Notre Dame, the Graduate Student Union has established a grant to fund graduate students to present their research at one conference per year. This can be a poster or a talk. The grant provides $250 per conference and is available every year you are a graduate student up to $1500. All of the details and instructions are available on the [[http://gsu.nd.edu/about/cpg/][GSU website]], but a summary is given here.
+
+You must provide the GSU notice of your conference two months in advance! The deadline for applications is the 1st of the month prior to the month in which the conference takes place. You notify them of your conference via an online form found on the [[http://gsu.nd.edu/about/cpg/][GSU website]]. You must also provide
+evidence of your abstract's acceptance to the conference. And follow any other instructions given.
+
+Once approved, there are additional instructions regarding the reimbursement process that will be sent to you once you are approved for this award. Nothing else needs to happen until you return from the conference. Then when filling out the travel.nd.edu reimbursement request, there will be an additional allocation to split the request between the GSU and whichever grant Dr. Schneider wants you to use (see section on how to get reimbursed).
+
+* How to get reimbursed
+All reimbursement requests must be processed online at [[http://travel.nd.edu][travel.nd.edu]]. Expenses are entered, scanned copies of receipts are uploaded, and then the report is submitted to the appropriate reviewer. You should set the manager account reviewer as Sue Vissage, and you should email her to find out which account numbers to specify for the reimbursement.
