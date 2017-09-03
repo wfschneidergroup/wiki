@@ -21,6 +21,8 @@ Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-
 * Policies and Procedures
 ** Conferences
 ** Publishing
+** Reviewing
+Before a scientific paper is published, it goes through peer review.  Information on the review process can be found on the [[./Reviewing.org][Reviewing]] page.
 ** Group citizenship
 ** (Semi-)Annual Reports
 ** Work Week and Time Off
@@ -30,3 +32,5 @@ When you are sick, please stay home.  No one in CoMSEL is interested in sharing 
 
 * Group computers
 Group computers are hosted by the [[http://crc.nd.edu][Notre Dame Center for Research Computing]].  Information on computers is available here.
+
+* Group photos

@@ -1,0 +1,24 @@
+Return to [[./README.org][Main page]].
+
+* Reviewing Background
+Every scientific paper that is published first goes through a "peer review" process in which other scientists read, comment on, and evaluate a paper's suitability for publication. It is a very important part of the scientific process. Reviewers are selected anonymously by a journal editor, and the review is written to help the editor make a decision on publishing the manuscript and to help the authors improve their paper.
+
+As you move on in your career you will get opportunities to review papers. Schneider is an editor for the [[http://jpc.acs.org][Journal of Physical Chemistry]], and you can bet he will ask you to review some papers for him.  You will, of course, also be on the receiving end of the review process.  Reviews should provide constructive criticism.
+
+See the Publishing page for details about writing and submitting papers for publication.
+
+* Questions to address in review
+The review itself is a narrative, usually several paragraphs in length. It generally starts with a very brief (2-3 sentence) overview of the paper. It then considers the strengths and weaknesses of the paper, considering in particular the following:
+- Are the background and motivation of the work clearly described, and is the work placed in proper context relative to the rest of the literature?
+- Are the results of the work completely and accurately reported? Is it novel?
+- Are reasonable conclusions drawn from the results? Are their gaps or errors in logic?
+- Is the writing clear? Are the figures clear and appropriate?
+- Are their specific errors that need to be corrected, or issues to be addressed before publishable?
+
+* Outcomes of the process
+sually a review ends with an overall evaluation, which can include one of the following (details vary journal to journal):
+- Accept as is.
+- Accept with minor revision.
+- Major revisions required.
+- Reject.
+- Publish elsewhere. Used when a manuscript is not appropriate to the journal it was submitted to.
