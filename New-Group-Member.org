@@ -8,7 +8,7 @@ Several things need to happen when you first join the group. Most of these thing
 - Get card access to CoMSEL office from Lisa in the CBE department office.  
 - Ask for a key to the interior CoMSEL rooms.
 - Set up an account with the Center for Research Computing [[https://crc.nd.edu][(CRC)]].
-- Contact the CRC to be added to the user list for the Schneider queues ([[CRCSupport@nd.edu][email]).
+- Contact the CRC to be added to the user list for the Schneider queues (CRCSupport@nd.edu).
 - Contact the CRC, using email above, to be put on the approved list for VASP, ADF, or whichever software you will be using.
 - For Linux workstations, be added to the /etc/password list.
 - For Windows workstations, set up openAFS.
