@@ -1,0 +1,201 @@
+#+TITLE: Atomic Simulation Environment (ASE) INSTALLATION
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+OPTIONS: toc:nil ^:{}
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+SUBTITLE: for new students...
+
+# here is where you include the relevant packages. These are pretty
+# common ones. You may add additional ones. Note that the order of the
+# packages is significant. If you are not careful, your file will not
+# build into a pdf.
+#+LATEX_HEADER: \usepackage[top=1in, bottom=1.in, left=1in, right=1in]{geometry}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage{fixltx2e}
+#+LATEX_HEADER: \usepackage{natbib}
+#+LATEX_HEADER: \usepackage{url}
+#+LATEX_HEADER: \usepackage{minted}  % for source code
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{pdfpages}
+#+LATEX_HEADER: \usepackage[version=3]{mhchem}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage[linktocpage, pdfstartview=FitH, colorlinks, linkcolor=blue, anchorcolor=blue, citecolor=blue,  filecolor=blue,  menucolor=blue,  urlcolor=blue]{hyperref}
+#+LATEX_HEADER: \usepackage{mdframed}
+\doublespace
+
+
+#+AUTHOR: Jeonghyun Ko
+\maketitle
+
+Please feel free to modify it. 
+(typo, grammar, wrong information, etc)
+
+* Requirements
+** Python 2.7, 3.4-3.6 
+Install Anaconda 3.6 version in your system.
+- wget <download link>
+- sh <filename.sh>
+Anaconda download page < https://www.anaconda.com/download/#linux >
+
+* ASE
+You can get the development version of ASE from https://gitlab.com/ase/ase.
+#+BEGIN_SRC sh
+git clone https://gitlab.com/ase/ase.git 
+#+END_SRC 
+
+* Environment variables
+** bashrc
+Add PATH and PYTHONPATH for ASE in your bashrc.\\
+Modify your bashrc via text editor such as vi or emacs.\\
+In your home directory, type this command. Here I use emacs.
+#+BEGIN_SRC sh
+emacs ~/.bashrc
+#+END_SRC
+This is an example of bashrc from Prateek. If you want to use this bashrc file, you have to replace user information with yours. Also it has some aliases for your convenience.
+#+BEGIN_SRC sh
+#Check http://crc.nd.edu/wiki for login problems
+#Contact crcsupport@nd.edu if further problems
+
+if [ -r /opt/crc/Modules/current/init/bash ]; then
+        source /opt/crc/Modules/current/init/bash
+fi
+
+PS1="[\u@\h:\W]$ "
+
+#Additional aliases
+# User specific aliases and functions
+alias ls='ls --color=auto'
+alias c='clear'
+alias e='emacs'
+alias cls='clear;ls'
+alias ebash='emacs ~/.bash_profile'
+alias sbash='source ~/.bash_profile'
+alias rm='rm -f'
+alias mystat='qstat -u jko1'
+alias emacs='emacs -l ~/scimax/init.el'
+alias mytop='top -u jko1'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias cds='cd /scratch365/jko1'
+
+#Additional modules
+# Latex
+module load texlive
+module load vasp/5.3.5
+module load emacs
+#ASE
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/ase:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jko1/ase/tools:$PATH
+
+#CATMAP
+# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/catmap:$PYTHONPATH
+
+# VASP
+export VASP_PP_PATH=/afs/crc.nd.edu/user/j/jko1/new_POTCARs/
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/vasp:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jko1/vasp/bin:$PATH
+
+# ASE ADDONS
+# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/ase_addons:$PYTHONPATH
+
+# AMP
+# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/amp/amp:$PYTHONPATH
+# export PYTHONPATH=~/amputils:$PYTHONPATH
+
+# Utils
+# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/research:$PYTHONPATH
+
+# VTST Scripts
+export PATH=/afs/crc.nd.edu/user/j/jko1/vtstscripts-928/:$PATH
+
+# VESTA
+export PATH=/afs/crc.nd.edu/user/j/jko1/VESTA-x86_64:$PATH
+
+#Anaconda
+export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda2/bin:$PATH
+#+END_SRC
+
+
+* VASP
+** downlaod vasp
+You can download vasp thrugh Prateek's github page. It is similar to John's original vasp wrapper, but patched to work with the Notre Dame job submission engine. You should compare John's version and this version to see how they are different.
+
+#+BEGIN_SRC sh
+git clone https://github.com/prtkm/vasp.git
+#+END_SRC
+go to the vasp folder, then switch to sge-py3 branch.
+#+BEGIN_SRC sh
+git checkout SGE-py3
+#+END_SRC
+You can see this message.
+#+BEGIN_SRC sh
+Branch SGE-py3 set up to track remote branch SGE-py3 from origin.
+Switched to a new branch 'SGE-py3'
+#+END_SRC
+Maybe there may be some incompatibility between this vasp version and the latest ASE.\\
+If you think there are incompatibilities, let Prateek know.
+ 
+** download POTCAR
+You need to have potential files of elements for your calculations. Download POTCAR folder in your home directory. Ask any one of the group members for POTCAR.
+** vasprc
+Like bashrc, we need a configuration file for submitting a job to server.\\
+In your home directory, type this to make the vasprc
+#+BEGIN_SRC sh
+emacs -nw ~/.vasprc
+#+END_SRC
+Then copy and paste this content.\\
+Note that you need to change user name and email! 
+#+BEGIN_SRC sh
+# jasp configuration file
+
+# adjust these for the your system
+
+vasp.executable.serial = vasp
+vasp.executable.parallel = vasp
+
+user.name = jko1
+user.email = jko1@nd.edu
+
+mode = queue   # run|queue|None
+
+multiprocessing.cores_per_process = None
+
+# these are only needed if you run in a queue. Setting a few defaults here. SGE needs nprocs, q, pe.
+
+scheduler = SGE
+queue.shell= bash
+queue.command = qsub
+queue.options = -j y
+queue.time = 168:00:00
+queue.nodes = 1
+queue.ppn = 1
+queue.nprocs = 16
+queue.mem = 2G
+queue.jobname = None
+queue.q = *@@schneider_q16copt
+queue.pe = smp
+vdw_kernel.bindat = /afs/crc.nd.edu/x86_64_linux/vasp/5.3.5/ompi1.6.3/vdw_kernel.bindat
+module=vasp/5.3.5
+#+END_SRC
+
+* Scimax
+Scimax is really helpful for us to use ASE as well as write some documents.\\
+I put Dr. Kitchin's (CMU) description of scimax.
+\begin{mdframed}
+Scimax is an Emacs starterkit designed for people interested in reproducible research and publishing. Scimax is just Emacs that has been configured extensively to make it act like we need it to for research documentation and publication.
+\end{mdframed}
+You can download scimax from Dr. Kitchin's github
+#+BEGIN_SRC sh
+git clone https://github.com/jkitchin/scimax.git
+#+END_SRC
+
+* Miscellaneous
+- A good guidebook for DFT calculations with ASE \\
+  https://github.com/jkitchin/dft-book
+
+- A basic information about ASE \\
+  https://wiki.fysik.dtu.dk/ase/index.html
+
