@@ -16,9 +16,7 @@ Several things need to happen when you first join the group. Most of these thing
 - Get access to the group Windows server.
 - Set up printers from CoMSEL and the Engineering library.
 - Get added to the Schneider group and COMSEL supergroup mailing lists.
-- Point 1
-- Point 2
-- Point 3
+
 
 
 
