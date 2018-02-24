@@ -32,7 +32,7 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 - [[http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time+saving-shortcuts][Becoming a command line ninja with these time-savings shortcut]]
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
 - [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
-- [[http://www.crc.nd.edu/~wschnei1/courses/CBE_547/homework.shtml][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
+- [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
 You will also want to become familiar with emacs, org-mode, and python.
 
 
