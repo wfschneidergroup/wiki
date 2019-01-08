@@ -37,8 +37,7 @@ Additional relevant skills:
 - Be familiar with emacs (org-mode).
 - Be familiar with Python in ASE platform (reference: Hjorth Larsen et al 2017 J. Phys.: Condens. Matter 29 273002).
 - Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
-
-Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
+- Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
 
 * Meetings
 In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Each week, one or two talks will be given by senior students who are doing computational researches. Supergroup meetings are not held during the summer.
