@@ -1,21 +1,20 @@
 Return to [[./Home.org][Schneider Group]]
 
 * Priority Tasks
-Several things need to happen when you first join the group. Most of these things should be done automatically, but final responsibility is with the individual group member.
+Several things need to happen when you first join the group, as listed below. Self-initiative is highly valued in our group.  Group member is advised to discuss with each other, but final responsibility is with the individual group member.
 
 ** Administrative
 - Get a seat in an office with a computer.
-- Get card access to CoMSEL office from Lisa in the CBE department office.  
-- Ask for a key to the interior CoMSEL rooms.
+- Get card access to Fitzpatrick Hall on [[https://irish1card.nd.edu/pin/][Campus ID Card Pin] website. When in use, contact the card to the card reader outside the entrance of the building, then key in your 4-digit pin to unlock the door.
+- Get card access to CoMSEL office from Lisa (email: lellam@nd.edu) in the CBE department office.  
 - Set up an account with the Center for Research Computing [[https://crc.nd.edu][(CRC)]].
+- Attend first time user workshop at CRC. Register at [[https://crc.nd.edu/index.php/news-events/calendar][CRC workshops]].
 - Contact the CRC to be added to the user list for the Schneider queues (CRCSupport@nd.edu).
 - Contact the CRC to be put on the approved list for VASP, ADF, or whichever software you will be using.
-- For Linux workstations, be added to the /etc/password list.
-- For Windows workstations, set up openAFS.
-- Ask Professor Schneider for access to the group AFS space: /afs/crc.nd.edu/user/w/wschnei1/Group/
-- Get access to the group Windows server.
-- Set up printers from CoMSEL and the Engineering library.
-- Get added to the Schneider group and COMSEL supergroup mailing lists.
+- For Linux workstations, make sure you're added to the /etc/password list by Dr. Schneider after joining the group.
+- Make sure you have access to the group AFS space. To do so, log in to CRC server and type "/afs/crc.nd.edu/user/w/wschnei1/Group/" in your terminal. You have access if you're able to access this folder.
+- Set up printers from CoMSEL from your personal computer.
+- Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
 
 
 
@@ -41,10 +40,10 @@ Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
 Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
 
 * Meetings
-Group meetings are held weekly in the CoMSEL seminar area.
+In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Each week, one or two talks will be given by senior students who are doing computational researches. Supergroup meetings are not held during the summer.
 
-In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Supergroup meetings are not held during the summer.
+Group members who are involved in catalysis research are strongly advised to attend the Catalysis Supergroup meeting taking place once every 2 weeks in McCourtney Hall. Other groups that will attend include Dr. Hicks's and Dr. O'Brien's.
 
-Depending on your research project, you will also be assigned to a subgroup (Catalysis, Ionic Liquids, Water Gas Shift, Coverage, Perovskite, etc.). Each subgroup meets weekly for 1-2 hours to discuss each individual progress.
+Depending on your research project, you will also be assigned to a subgroup (Catalysis, Zeolites, etc.). Once you're assigned to a Subgroup, please check the [[https://calendar.google.com/calendar/embed?src=b3e5dnq5qj5dlmov44dplttt6s%40group.calendar.google.com&ctz=America/New_York][Group Calendar]] and attend your corresponding Subgroup meeting. Each subgroup meets weekly for 1-2 hours to discuss each individual progress.
 
-Graduate students are also expected to attend their respective department seminars, which take place near-weekly during the school year.
+Above all, graduate students are also expected to attend their respective department seminars, which take place near-weekly during the school year.
