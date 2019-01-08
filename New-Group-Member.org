@@ -1,23 +1,24 @@
 Return to [[./Home.org][Schneider Group]]
 
 * Priority Tasks
-Several things need to happen when you first join the group. Most of these things should be done automatically, but final responsibility is with the individual group member.
+Several things need to happen when you first join the group, as listed below. Self-initiative is highly valued in our group.  Group member is advised to discuss with each other, but final responsibility is with the individual group member.
 
 ** Administrative
 - Get a seat in an office with a computer.
-- Get card access to CoMSEL office from Lisa in the CBE department office.  
-- Ask for a key to the interior CoMSEL rooms.
-- Set up an account with the Center for Research Computing [[https://crc.nd.edu][(CRC)]].
+- Get card access to Fitzpatrick Hall on [[https://irish1card.nd.edu/pin/][Campus ID Card Pin]] website. When in use, contact the card to the card reader outside the entrance of the building, then key in your 4-digit pin to unlock the door.
+- Get card access to CoMSEL office from Lisa (email: lellam@nd.edu) in the CBE department office.  
+- Set up an account with the Center for Research Computing (CRC).
+- Attend first time user workshop at CRC. Register at [[https://crc.nd.edu/index.php/news-events/calendar][CRC workshops]].
 - Contact the CRC to be added to the user list for the Schneider queues (CRCSupport@nd.edu).
 - Contact the CRC to be put on the approved list for VASP, ADF, or whichever software you will be using.
-- For Linux workstations, be added to the /etc/password list.
-- For Windows workstations, set up openAFS.
-- Ask Professor Schneider for access to the group AFS space: /afs/crc.nd.edu/user/w/wschnei1/Group/
-- Get access to the group Windows server.
-- Set up printers from CoMSEL and the Engineering library.
-- Get added to the Schneider group and COMSEL supergroup mailing lists.
+- For Linux workstations, make sure you're added to the /etc/password list by Dr. Schneider after joining the group.
+- Make sure you have access to the group AFS space. To do so, log in to CRC server and type "/afs/crc.nd.edu/user/w/wschnei1/Group/" in your terminal. You have access if you're able to access this folder.
+- Set up printers from CoMSEL from your personal computer.
+- Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
 
 
+** Individual 
+Since new members may not receive a definite project right after joining the group, it is crucial that new members take this opportunity to learn the technical skills required in many of our researches in the group. First, students should make an effort in updating the group's Wiki page (this one!) by fork-ing pages that you want to make changes, make enough changes in your end, and submitting a "pull" request to the master page so that we can merge your changes into our page. Then, students should learn Python from countless website online. For beginners, [[https://www.youtube.com/watch?v=N4mEzFDjqtA][Python Youtube video from Derek Banas]] can be helpful. Once you get up to speed, please familiarize yourself with the Atomic Simulation Environment (ASE) platform. For instance, read this paper published by [[http://iopscience.iop.org/article/10.1088/1361-648X/aa680e/meta][Hjorth Larsen et al. ]] and be familiar with the instructions in our group's [[https://github.com/JianRenLim/wiki/blob/master/ASE.org][ASE Page]].Next, attend significant amount of meetings that are relevant to your research area(s). Lastly, take self-initiative in reading papers and updating yourself with the latest progress in your area(s).
 
 
 ** Educational
@@ -30,21 +31,20 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 - [[http://software-carpentry.org/4_0/shell/][Youtube lecture that covers the basics of using the Unix command shell from software-carpentry]]
 - [[http://wiki.crc.nd.edu/wiki/index.php/Linux_Coding_Cheat_Sheets_and_More][Links to Linux tutorials and cheat sheets]]
 - [[http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time+saving-shortcuts][Becoming a command line ninja with these time-savings shortcut]]
+
+Additional relevant skills:
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
 - [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
 - [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
-You will also want to become familiar with emacs, org-mode, and python.
+- Be familiar with emacs (org-mode).
+- Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
+- Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
 
+** Meetings
+In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Each week, one or two talks will be given by senior students who are doing computational researches. Supergroup meetings are not held during the summer.
 
-Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
+Group members who are involved in catalysis research are strongly advised to attend the Catalysis Supergroup meeting taking place once every 2 weeks in McCourtney Hall. Other groups that will attend include Dr. Hicks's and Dr. O'Brien's.
 
-Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
+Depending on your research project, you will also be assigned to a subgroup (Catalysis, Zeolites, etc.). Once you're assigned to a Subgroup, please check the [[https://calendar.google.com/calendar/embed?src=b3e5dnq5qj5dlmov44dplttt6s%40group.calendar.google.com&ctz=America/New_York][Group Calendar]] and attend your corresponding Subgroup meeting. Each subgroup meets weekly for 1-2 hours to discuss each individual progress.
 
-* Meetings
-Group meetings are held weekly in the CoMSEL seminar area.
-
-In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Supergroup meetings are not held during the summer.
-
-Depending on your research project, you will also be assigned to a subgroup (Catalysis, Ionic Liquids, Water Gas Shift, Coverage, Perovskite, etc.). Each subgroup meets weekly for 1-2 hours to discuss each individual progress.
-
-Graduate students are also expected to attend their respective department seminars, which take place near-weekly during the school year.
+Above all, graduate students are also expected to attend their respective department seminars, which take place near-weekly during the school year.
