@@ -17,6 +17,8 @@ Several things need to happen when you first join the group, as listed below. Se
 - Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
 
 
+** Individual 
+Since new members may not receive a definite project right after joining the group, it is crucial that new members take this opportunity to learn the technical skills required in many of our researches in the group. First, students should make an effort in updating the group's Wiki page (this one!) by fork-ing pages that you want to make changes, make enough changes in your end, and submitting a "pull" request to the master page so that we can merge your changes into our page. Then, students should learn Python from countless website online. For beginners, [[https://www.youtube.com/watch?v=N4mEzFDjqtA][Python Youtube video from Derek Banas]] can be helpful. Once you get up to speed, please familiarize yourself with the Atomic Simulation Environment (ASE) platform (reference: Hjorth Larsen et al 2017 J. Phys.: Condens. Matter 29 273002). Next, attend significant amount of meetings that are relevant to your research area(s). Lastly, take self-initiative in reading papers and updating yourself with the latest progress in your area(s).
 
 
 ** Educational
@@ -35,11 +37,10 @@ Additional relevant skills:
 - [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
 - [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
 - Be familiar with emacs (org-mode).
-- Be familiar with Python in ASE platform (reference: Hjorth Larsen et al 2017 J. Phys.: Condens. Matter 29 273002).
 - Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
 - Sign up for [[http://wiki.crc.nd.edu/wiki/index.php/CRC_Training][CRC Training Courses]] that may be useful or of interest.
 
-* Meetings
+** Meetings
 In addition to group meetings, group members are expected to participate in weekly supergroup meetings held in the CoMSEL seminar area. These meetings combine several of the computational groups on campus, and each graduate student is expected to present once per academic year. Each week, one or two talks will be given by senior students who are doing computational researches. Supergroup meetings are not held during the summer.
 
 Group members who are involved in catalysis research are strongly advised to attend the Catalysis Supergroup meeting taking place once every 2 weeks in McCourtney Hall. Other groups that will attend include Dr. Hicks's and Dr. O'Brien's.
