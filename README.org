@@ -1,4 +1,4 @@
-* Greetings group members, students, and guests!
+* Welcome group members, students, and guests!
 Welcome to the Schneider's group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
 This repository is a collection of relevant files and events happening within the Schneider's Group. In this repository, you can find [[orgmode.org][org mode]] files created within [[https://Twww.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][Github]].  This page is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer via [[https://desktop.github.com/][Github Desktop]].  As you get more experienced with the Github platform, please consider contribute ("push") new information to the repository.
