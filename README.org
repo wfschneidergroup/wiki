@@ -1,7 +1,7 @@
-* Welcome!
+* Greetings group members, students, and guests!
 Welcome to the Schneider group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
-This repo is a collection of [[orgmode.org][org mode]] files created within [[https://www.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  It is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer.  As you get more experience with all these mysterious things, contribute ("push") new/updated information to the repo.
+This repository is a collection of relevant files and events happening within the Schneider's Group. In this repository, you can find [[orgmode.org][org mode]] files created within [[https://Twww.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  This page is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer via [[https://desktop.github.com/][MIT-licensed Github]].  As you get more experience with all these mysterious things, contribute ("push") new/updated information to the repository.
 
 * General Information
 Group correspondence can be addressed to [[mailto:SchneiderGroup-list@nd.edu][SchneiderGroup-list@nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.  Current and former group members are listed [[./members.org][here]].
