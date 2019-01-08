@@ -41,7 +41,7 @@ Graduate school is generally not a 40 hour a week job, at least if you hope to g
 
 When you are sick, please stay home.  No one in CoMSEL is interested in sharing your germs.
 
-* Group computers
+** Group computers
 Group computers are hosted by the Center for Research Computing (CRC). For more information about CRC and running jobs, please visit [[http://crc.nd.edu][Notre Dame Center for Research Computing website]].
 
 * Group software
