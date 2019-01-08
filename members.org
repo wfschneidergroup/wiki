@@ -13,9 +13,12 @@ Return to [[./README.org][Main Page]].
 - Anshuman Goswami (2017 Chemical Engineering)
 - Jerry Crum (2017 Chemical Engineering)
 - Neha Mehra (2017 Chemical Engineering)
+- Jian Ren Lim (2018 Chemical Engineering)
+- Yixiao Hou (2018 Chemical Engineering)
 
 ** Current Post-doctoral Associates
 - Dr. Hanyu Ma
+- Dr. Joseph Zhao
 
 ** Former M.Sc. Students
 - 5 :: Solomon Assefa, ",", April 2016.
