@@ -1,46 +1,50 @@
-* Welcome!
-Welcome to the Schneider group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
+* Welcome group members, students, and guests!
+Welcome to the Schneider's group information page. Additional information on the Group can be found on [[http://www.nd.edu/~wschnei1/][Bill's website]].
 
-This repo is a collection of [[orgmode.org][org mode]] files created within [[https://www.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][github]].  It is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer.  As you get more experience with all these mysterious things, contribute ("push") new/updated information to the repo.
+This repository is a collection of relevant files and events happening within the Schneider's Group. In this repository, you can find [[orgmode.org][org mode]] files created within [[https://Twww.gnu.org/software/emacs/][emacs]] and shared on [[https://github.com/wfschneidergroup/wiki][Github]].  This page is intended to be used as a portal for sharing information about the group. You can either read it through git or download to your own computer via [[https://desktop.github.com/][Github Desktop]].  As you get more experienced with the Github platform, please consider contribute ("push") new information to the repository.
 
 * General Information
 Group correspondence can be addressed to [[mailto:SchneiderGroup-list@nd.edu][SchneiderGroup-list@nd.edu]]. Contact the current [[mailto:pmehta1@nd.edu][list manager]] for questions or concerns.  Current and former group members are listed [[./members.org][here]].
 
-* New Group members
+** New Group Members
 Some tips on getting started in the Group can be found on the [[./New-Group-Member.org][New-Group-Member]] page.
 
-* Group Resources
+** Group Resources
 For information about computers, software, scripts, etc. used in the group, please visit [[./Resources.org][Group Resources]] page.
 
-* Meetings
-Schneider's group regularly attends the CoMSEL Supergroup meetings, as well as holding weekly Group meetings and topical Subgroup meetings. The schedule is shared on a [[https://calendar.google.com/calendar/embed?src=b3e5dnq5qj5dlmov44dplttt6s%40group.calendar.google.com&ctz=America/New_York][Google Calendar]]. Additional one-on-one meetings with Professor Schneider can be arranged as needed.
+** Meetings
+Schneider's group regularly attends the CoMSEL Supergroup meetings, which takes place every week in CoMSEL common area. On top of that, group members are advised to attend topical Supergroup and Subgroup meetings related to one's research direction, which may take place every 2 weeks. All known and scheduled meetings will be shared on a [[https://calendar.google.com/calendar/embed?src=b3e5dnq5qj5dlmov44dplttt6s%40group.calendar.google.com&ctz=America/New_York][Google Calendar]]. If anything comes up, please feel free to schedule additional one-on-one meetings with Dr. Schneider.
 
-* Publications
-A list of published papers is available at the [[www.nd.edu/~wschnei1/Publications.shtml][Publications website]].  Also, all publications are (or at least should be) available on the group shared Google space at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpRENEhWeUx4ZTRLalk][GDrive/Group/Publications]].
+** Publications
+A list of published papers from our beloved group members is available at the [[www.nd.edu/~wschnei1/Publications.shtml][Publications website]].  Besides, all publications will be available on Google Drive shared within the group: [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpRENEhWeUx4ZTRLalk][GDrive/Group/Publications]].
 
-Dissertations are available at [[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpREdkl1cDdOanhiNDg][GDrive/Group/Dissertations]].
+Moreover, we have students who graduated over the years. For more information about our former students or their researches, please visit the dissertation section:[[https://drive.google.com/drive/u/1/folders/0B7-2wq5AHpREdkl1cDdOanhiNDg][GDrive/Group/Dissertations]].
 
 * Policies and Procedures
 ** Conferences
-Group members are encouraged to present their research at conferences. Information about attending conferences can be found on the [[./Conferences.org][Conferences]] page.
+Dr. Schneider strongly encourage group members to present their research at conferences. In attending conferences, it is advised to follow the proper procedure listed by the university. Information about attending conferences can be found on the [[./Conferences.org][Conferences]] page.
 ** Publishing
-Group members are expected to publish as part of their degree or post-doctoral work. Information about publishing in the group can be found on the [[./Publishing.org][Publishing]] page.
+As part of the doctoral or post-doctoral responsibilities, group members are expected to publish high quality papers as  as they can. Information about publishing in the group can be found on the [[./Publishing.org][Publishing]] page.
 
 ** Reviewing
 Before a scientific paper is published, it goes through peer review.  Information on the review process can be found on the [[./Reviewing.org][Reviewing]] page.
+
 ** Group citizenship
 Be nice to everyone in the group, and leave the group better than you found it.
+Be a team-player and voluntarily contribute your skillset to the group.
+
 ** (Semi-)Annual Reports
-At the end of (June and ) December each year Schneider would like an "accomplishments" report to use as a basis for a one-on-one discussion about research progress, future research directions, graduation plans, and post graduation plans. A Google template of the report is available [[https://docs.google.com/document/d/1iE3TTGabHms91O3ROaeS4I6eMvXUWOcUPAnLGrt7Hlg/edit][here]]. (Create a copy before typing in this!)  Someone needs to create an org version!
+At the end of (June and ) December each year Dr. Schneider would like an "accomplishments" report to use as a basis for a one-on-one discussion about research progress, future research directions, graduation plans, and post graduation plans. A Google template of the report is available [[https://docs.google.com/document/d/1iE3TTGabHms91O3ROaeS4I6eMvXUWOcUPAnLGrt7Hlg/edit][here]]. (Create a copy before typing in this!)  Someone needs to create an org version!
+
 ** Work Week and Time Off
 Graduate school is generally not a 40 hour a week job, at least if you hope to graduate before funding runs out. Work hard and have fun. Some people are early birds, some are night owls. Whatever the case, try to be in the office between the hours 10 am - 4 pm, when most meetings are held. The University has a number of holidays, plus you are "officially" given two weeks a year of vacation. Be courteous and let your coworkers and supervisors know when you'll be out of the office.
-** Sick Leave
+
 When you are sick, please stay home.  No one in CoMSEL is interested in sharing your germs.
 
-* Group computers
-Group computers are hosted by the [[http://crc.nd.edu][Notre Dame Center for Research Computing]].  Information on computers is available here.
+** Group computers
+Group computers are hosted by the Center for Research Computing (CRC). For more information about CRC and running jobs, please visit [[http://crc.nd.edu][Notre Dame Center for Research Computing website]].
 
 * Group software
 
 * Group photos
-We are a handsome/beautiful bunch, as documented in photos....
+We are a handsome/beautiful bunch, as documented in photos.
