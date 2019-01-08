@@ -34,7 +34,7 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 - [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
 - [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
 You will also want to become familiar with emacs, org-mode, and python.
-
+One of the basic Python tutorials recommended: [[http://www.pallier.org/lectures/AIP2016/books/Beginning_Python_from_Novice_to_pro.pdf][Beginning Python: From Novice to Professional.]]
 
 Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
 
