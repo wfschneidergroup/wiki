@@ -28,7 +28,7 @@ Return to [[./README.org][Main Page]].
 - 1 :: Wenguang Lin, M.Sc.\nbsp{}thesis "DFT Simulations of \ce{Re_3} Metal Cluster Binding on Alumina in Hydrogen Environments," December 2008.
 
 ** Former Ph.D. Students
-- 11 :: Dr.\nbsp{}Quintin Sheridan, "Simulation Study of \ce{CO2}-Reactive Aprotic Heterocyclic Anion Ionic Liquids: Water Interactions, Liquid Structure, and \ce{CO2} Solubility," [[https://curate.nd.edu/show/44558c99p04]], April 2017.
+- 11 :: Dr.\nbsp{}Quintin Sheridan, "Simulation Study of CO <sub>2</sub> -Reactive Aprotic Heterocyclic Anion Ionic Liquids: Water Interactions, Liquid Structure, and CO <sub>2</sub> Solubility," [[https://curate.nd.edu/show/44558c99p04]], April 2017.
 - 11 :: Dr.\nbsp{}Christopher Paolucci, "Theoretical and Computational Modeling of the Selective Catalytic Reduction of NOx in Cu-SSZ-13 Zeolites," [[https://curate.nd.edu/show/r781wd39s26]], April 2017.
 - 10 :: Dr.\nbsp{}Laura Herder, "Nucleation of Surface Platinum Oxide on Pt(111)," August 2015.  Currently UW-Lacrosse.
 - 9 :: Dr.\nbsp{}Trunojoyo Anggara, "First-Principles Study of NO Oxidation on Cu-Exchanged SSZ-13 Zeolite Catalysts," August 2015. Currently Notre Dame.
