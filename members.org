@@ -13,9 +13,12 @@ Return to [[./README.org][Main Page]].
 - Anshuman Goswami (2017 Chemical Engineering)
 - Jerry Crum (2017 Chemical Engineering)
 - Neha Mehra (2017 Chemical Engineering)
+- Jian Ren Lim (2018 Chemical Engineering)
+- Yixiao Hou (2018 Chemical Engineering)
 
 ** Current Post-doctoral Associates
 - Dr. Hanyu Ma
+- Dr. Joseph Zhao
 
 ** Former M.Sc. Students
 - 5 :: Solomon Assefa, ",", April 2016.
@@ -25,13 +28,13 @@ Return to [[./README.org][Main Page]].
 - 1 :: Wenguang Lin, M.Sc.\nbsp{}thesis "DFT Simulations of \ce{Re_3} Metal Cluster Binding on Alumina in Hydrogen Environments," December 2008.
 
 ** Former Ph.D. Students
-- 11 :: Dr.\nbsp{}Quintin Sheridan, "Simulation Study of \ce{CO2}-Reactive Aprotic Heterocyclic Anion Ionic Liquids: Water Interactions, Liquid Structure, and \ce{CO2} Solubility," [[https://curate.nd.edu/show/44558c99p04]], April 2017.
+- 12 :: Dr.\nbsp{}Quintin Sheridan, "Simulation Study of CO2-Reactive Aprotic Heterocyclic Anion Ionic Liquids: Water Interactions, Liquid Structure, and CO2 Solubility," [[https://curate.nd.edu/show/44558c99p04]], April 2017.
 - 11 :: Dr.\nbsp{}Christopher Paolucci, "Theoretical and Computational Modeling of the Selective Catalytic Reduction of NOx in Cu-SSZ-13 Zeolites," [[https://curate.nd.edu/show/r781wd39s26]], April 2017.
 - 10 :: Dr.\nbsp{}Laura Herder, "Nucleation of Surface Platinum Oxide on Pt(111)," August 2015.  Currently UW-Lacrosse.
 - 9 :: Dr.\nbsp{}Trunojoyo Anggara, "First-Principles Study of NO Oxidation on Cu-Exchanged SSZ-13 Zeolite Catalysts," August 2015. Currently Notre Dame.
 - 8 :: Dr.\nbsp{}Michael Penninger, "Simulation of NO Oxidation Catalysis on Perovskite Catalysts," May 2015. Currently UOP.
 - 7 :: Dr.\nbsp{}John Clay, "Comparison Of Palladium And Platinum Water Gas Shift Reaction Kinetics Using Density Functional Theory Models," August 2014.  ERC, Incorporated.
-- 6 :: Dr.\nbsp{}Dorrell McCalman, Dissertation "Simulation of Aqueous Phase \ce{NO_x} Reduction over Pd Catalysts," April 2013.
+- 6 :: Dr.\nbsp{}Dorrell McCalman, Dissertation "Simulation of Aqueous Phase NOx Reduction over Pd Catalysts," April 2013.
 - 5 :: Dr.\nbsp{}Jason M.\nbsp{}Bray, Dissertation "Adsorbate Coverage Dependence In Heterogeneous Catalysis: Kinetics Of Oxygen Adsorption On Platinum Surfaces From First Principles," April 2013.  Currently Phillips 66.
 - 4 :: Dr.\nbsp{}David J.\nbsp{}Schmidt, Ph.D., dissertation "Cluster Expansion Studies Of Oxygen Adsorption On Transition Metal Surfaces," December 2012.
 - 3 :: Dr.\nbsp{}Elaine Mindrup, Ph.D.\nbsp{}dissertation "Discovery of New Ionic Liquids for CO2 Capture," May 2011.  Currently Patent Examiner, US Patent and Trademark Office.
