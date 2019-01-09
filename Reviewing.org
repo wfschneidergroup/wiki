@@ -16,7 +16,7 @@ The review itself is a narrative, usually several paragraphs in length. It gener
 - Are their specific errors that need to be corrected, or issues to be addressed before publishable?
 
 * Outcomes of the process
-sually a review ends with an overall evaluation, which can include one of the following (details vary journal to journal):
+Usually a review ends with an overall evaluation, which can include one of the following (details vary journal to journal):
 - Accept as is.
 - Accept with minor revision.
 - Major revisions required.
