@@ -19,5 +19,6 @@ Return to [[./README.org][Main Page]].
 - emacs, a great text editor: https://www.gnu.org/software/emacs/
 - Scimax, a great repository for running emacs: [[https://github.com/jkitchin/scimax]]
 - LaTeX, a document formatting language
+- Google Doc is also recommended
 
 * Scripts
