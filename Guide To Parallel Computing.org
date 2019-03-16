@@ -50,9 +50,6 @@
 
 #+author:Jerry Crum @@latex:\\@@ @@latex:\\@@ Dr. William Schneider Research Group
 
-\maketitle
-\newpage
-\Sectionnumbersoff
 * Introduction
 The CRC at Notre Dame has many queues available for job submission, each with various architectures. Which queue you submit your job to, and how you request resources on that queue will impact the efficiency of your job. This guide aims to assist users in submitting efficient jobs with practical resource utilization. This guide is not intended to be all encompassing, but more of a quick reference sheet for users of VASP in the Schneider Group. 
 * Queues
