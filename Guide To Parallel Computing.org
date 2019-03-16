@@ -1,0 +1,173 @@
+#+BEGIN_OPTIONS
+#+LATEX_CLASS_OPTIONS: [11pt]
+#+LATEX_HEADER:\usepackage{geometry}
+#+LATEX_HEADER:\geometry{margin=1.0in}
+#+LATEX_HEADER:\usepackage{graphicx}
+#+LATEX_HEADER:\usepackage{color}
+#+LATEX_HEADER:\usepackage[numbers,super,sort&compress]{natbib}
+#+LATEX_HEADER:\usepackage{caption}
+#+LATEX_HEADER:\usepackage{subcaption}
+#+LATEX_HEADER:\captionsetup{font=footnotesize}
+#+LATEX_HEADER:\usepackage[version=3]{mhchem}
+#+LATEX_HEADER:\usepackage{siunitx}
+#+LATEX_HEADER:\usepackage{fancyhdr}
+#+LATEX_HEADER:\usepackage{amsmath}
+#+LATEX_HEADER:\usepackage{enumitem}
+#+LATEX_HEADER:\usepackage{mdwlist}
+#+LATEX_HEADER:\usepackage{hyperref}
+#+LATEX_HEADER:\pagestyle{fancy}
+#+LATEX_HEADER:\usepackage{wrapfig}
+#+LATEX_HEADER:\fancyhf{}
+#+LATEX_HEADER:\fancyhead[LE,RO]{\scriptsize Jerry Crum}
+#+LATEX_HEADER:\fancyhead[RE,LO]{\scriptsize Guide To Parallel Computing}
+#+LATEX_HEADER:%\fancyfoot[CE,CO]{\leftmark}
+#+LATEX_HEADER:\fancyfoot[LE,RO]{\thepage}
+#+LATEX_HEADER:%\usepackage{subfig}
+#+LATEX_HEADER:\usepackage{comment}
+#+LATEX_HEADER:\usepackage{titlesec}
+#+LATEX_HEADER:\titlespacing*{\section}
+#+LATEX_HEADER:{0pt}{0.6\baselineskip}{0.2\baselineskip}
+#+LATEX_HEADER:\titlespacing*{\subsection}
+#+LATEX_HEADER:{0pt}{0.6\baselineskip}{0.2\baselineskip}
+#+LATEX_HEADER:\titlespacing*{\subsubsection}
+#+LATEX_HEADER:{0pt}{0.4\baselineskip}{0.1\baselineskip}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage[section]{placeins}
+
+#+LATEX_HEADER:\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+#+LATEX_HEADER:\newcommand{\red}[1]{\textcolor{red}{#1}}
+#+LATEX_HEADER:\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+#+LATEX_HEADER:\newcommand{\green}[1]{\textcolor{green}{#1}}
+#+LATEX_HEADER:\newcommand{\orange}[1]{\textcolor{orange}{#1}}
+#+latex_header: \usepackage[capitalise]{cleveref}
+
+#+OPTIONS: toc:nil
+#+OPTIONS: H:3 num:nil
+#+OPTIONS: ':t
+#+END_OPTIONS
+
+#+Title:A Guide to Parallel Computing Using the Schneider Queues
+
+#+author:Jerry Crum @@latex:\\@@ @@latex:\\@@ Dr. William Schneider Research Group
+
+\maketitle
+\newpage
+\Sectionnumbersoff
+* Introduction
+The CRC at Notre Dame has many queues available for job submission, each with various architectures. Which queue you submit your job to, and how you request resources on that queue will impact the efficiency of your job. This guide aims to assist users in submitting efficient jobs with practical resource utilization. This guide is not intended to be all encompassing, but more of a quick reference sheet for users of VASP in the Schneider Group. 
+* Queues
+** Group Queues
+There are many different queues available for use: group specific queues, debug queues, and more that can be found on the CRC Wiki. The bulk of your job submissions will be submitted to the group specific queues. Those queues, as well as their architectures are listed in \cref{tab:gqueues}. The Q16 machines are the oldest (and slowest), with one node currently decommissioned. Thus, there are actually only 5 available Q16 nodes for job submission. The D12 and D24 queues are comparable in speeds, with the D24 machines offering a slight increase for certain job types.  
+
+#+CAPTION: Schneider Group queues.
+#+LABEL: tab:gqueues
+|-----------------------+-----------------+----------------+---------+-------------|
+| Queue                 | Number of Nodes | Cores per Node | Design  | Proc. Type  |
+|-----------------------+-----------------+----------------+---------+-------------|
+| *@@schneider_q16copt  |               6 |             64 | Quad 16 | AMD Opteron |
+| *@@schneider_d12chas  |              20 |             24 | Dual 12 | Intel Xeon  |
+| *@@schneider_d24cepyc |               4 |             48 | Dual 24 | AMD 7451    |
+|-----------------------+-----------------+----------------+---------+-------------|
+** Debug Queues
+Debug queues are also available, but not meant for any jobs that will run longer than one hour. For information on accessing those queues, visit the CRC Wiki. 
+** Other Queues
+There are other general access queues available for various types of jobs and testing. For more information on those, visit the CRC Wiki. 
+* Parallel Environment
+The parallel environment you select will depend on how you would like to submit your jobs. You have two options for parallel environment, SMP or MPI. 
+** SMP
+Jobs submitted using SMP will only run on one node. You can request any amount of cores up to the total amount of cores on that particular node. If you intend to use a full node, it is more efficient to use MPI as your parallel environment. Your job will not run until the number of cores you have requested are all available on a single node.
+** MPI
+Jobs submitted using MPI will run on multiple nodes. This option requires use of the entire node. Your job will not run until enough nodes are completely available to satisfy the number of cores you have requested. Examples of how to request MPI for each of the queues are shown in \cref{tab:mpieg}. The method used for setting parallel environment and number of cores to use will be outlined in the 'Use in VASP' section. 
+
+#+CAPTION: Examples for MPI on the Schneider queues.
+#+LABEL: tab:mpieg
+|----------+----------------+-----------|
+| Queue    | Cores per Node | MPI Usage |
+|----------+----------------+-----------|
+| q16copt  |             64 | mpi-64    |
+| d12chas  |             24 | mpi-24    |
+| d24cepyc |             48 | mpi-48    |
+|----------+----------------+-----------|
+
+** Number of Cores
+The number of cores you request is important for ensuring that we are efficiently utilizing our resources, and being considerate to the rest of the group. Recommended increments of cores are listed in \cref{tab:cores}.
+
+#+CAPTION: Recomended increments of cores for each queue.
+#+LABEL: tab:cores
+|----------+----------------+----------------|
+| Queue    | SMP Increments | MPI Increments |
+|----------+----------------+----------------|
+| q16copt  |             16 |             64 |
+| d12chas  |             12 |             24 |
+| d24cepyc |             24 |             48 |
+|----------+----------------+----------------|
+
+* Use in VASP
+There are three different ways to set your parallel environment and number of cores: editing the .vasprc file, adding VASPRC commands to your job script, and using UGE commands to edit a job that has already been submitted but is still queued. You also want to be sure to set the appropriate tags in your VASP calculation to make the best use of your selected parallel environment and number of cores. The first of these two methods assume that you are using ASE, and John Kitchin's Python wrapper for VASP. I don't have experience submitting jobs manually. If you would like information on modifying the parallel environment of a manual job, seek out a member of our group who has that experience. 
+
+** .vasprc
+If you are using ASE and John Kitchin's Python wrapper to schedule jobs, you will have a .vasprc file in your home directory. This file sets all the default parameters for scheduling VASP jobs. If you modify the parallel environment and number of cores on this document, every job you submit will have those settings unless you specifically change them in a particular job. Below in \cref{tab:vrc} you will find examples of how to set those parameters in the .vasprc file.
+
+#+CAPTION: Setting the .vasprc parameters.
+#+LABEL: tab:vrc
+|--------------+----------------------+----------------------+----------------------|
+| Parameter    | What is changed      | MPI Example          | SMP Example          |
+|--------------+----------------------+----------------------+----------------------|
+| queue.q      | Queue requested      | *@@schneider_d12chas | *@@schneider_d12chas |
+| queue.pe     | Parallel environment | mpi-24               | smp                  |
+| queue.nprocs | Number of cores      | 48                   | 12                   |
+|--------------+----------------------+----------------------+----------------------|
+
+** VASPRC Commands
+If you intend to submit a job that requires parallelization settings, other than the ones specified in .vasprc, you can request those in the job script. To do this you must import the VAPRC module in Python with the following command:
+
+#+BEGIN_SRC python
+from vasp.vasprc import VASPRC
+#+END_SRC
+
+Then, in your job script before you set the VASP calculation, you can edit the parameters listed in the previous section. See the following examples:
+
+#+BEGIN_SRC python
+VASPRC['queue.q'] = '*@@schneider_d12chas'
+VASPRC['queue.pe'] = 'mpi-48'
+VASPRC['queue.nprocs'] = 48
+#+END_SRC
+
+** Modifying a Queued Job
+To modify a queued job, you will use UGE commands from your terminal window. These modifications can not be applied after the job is running, or the status is 'r'. See the following examples, where 'jobid' represents the job id number for your specific job:
+
+#+BEGIN_SRC sh
+qalter jobid -q *@@schneider_d12chas
+qalter jobid -pe mpi-48 48
+#+END_SRC
+
+Using this method, you modify the parallel environment and the number of cores requested in the same command. 
+
+** VASP Tags
+VASP has been optimized for parallel environments, and thus has tags you can set to make the best use of the environment you intend to use. You designate these tags inside the calculator you write. The two options you can set are npar and ncore. You can view the VASP documentation for more information on the two tags. The documentation online, and the VASP output files disagree on how to use these two tags. One thing is for sure, you can only use one tag or the other, not both at the same time. I have done some benchmarking and found that setting npar = approximate sqrt(# of cores) is the most efficient method for geometry optimization, and energy calculations. The value you put for npar needs to be a whole number, and a factor of the number of cores you have requested for the job. For example, when requesting 48 cores, I use npar = 6. When doing vibration calculations this method fails, and I recommend setting ncore = 1. 
+
+* Useful Tools
+In this section I will introduce some tools that I have found to be very useful. These tools are by no means required, and everyone's preferences will be different. 
+** FastX
+This is great for Mac users. This software creates a virtual machine of your AFS space on the CRC. You would use this instead of terminal and XQuartz. FastX is significantly faster at loading graphics than XQuartz, and more stable. It is recommended by the CRC as well. FastX can be found here:
+
+https://www.starnet.com/fastx/current-client 
+
+** ExpanDrive
+If you write your scripts on your desktop but want to run them on the CRC, you have to get them onto the CRC somehow. One option is using FUGU, an SSH file transfer client. This is inefficient, and I would not recommend this approach. What I have found to be more practical is ExpanDrive. This software mounts your AFS space as a disk on your computer. You can then access, modify, and add files as if you are using a local folder on your workstation. Changes take place on the CRC instantly. ExpanDrive is available from the Software Downloads section of inside.nd.edu. 
+
+** nodestats.py
+This is a script I wrote to monitor the queues available to our research group. Running this script will display every one of our nodes, how many cores it has, how many are used, and how many are free. It will also display the amount of cores each person in our group is currently using. This is helpful if your default is to request 24 cores, but there are only 12 cores available currently. If you need the job to run right away, and can handle the decrease in number of cores, you can change your job to only request the available 12 cores. This script is available at:
+
+/afs/crc.nd.edu/user/w/wschnei1/Group/bin
+
+I would recommend adding this location to your PATH, and then you should be able to execute the script from any directory. 
+** .bashrc
+I have added my .bashrc file to the same location listed above for anyone to utilize. It has handy aliases and PATH locations you might find useful. 
+** UGE commands
+The CRC uses Univa Grid Engine, or UGE, to handle job submission and monitoring. It would be helpful to familiarize yourself with the various commands available for interaction with UGE. The documentation for UGE can be found here:
+
+http://gridengine.eu/mangridengine/manuals.html
+
+* Final Notes
+Thank you for taking the time to read this documentation. This is merely a collection of information I would have found useful when I first started computational research. If you find any of this information to be incorrect, or you have other techniques that would be useful for our group to know, please feel free to reach out to me at jcrum@nd.edu.
