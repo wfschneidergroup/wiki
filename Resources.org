@@ -1,15 +1,24 @@
 Return to [[./README.org][Main Page]].
 
 * Computers
-
 * Software
 ** DFT Packages
+- Vasp home: [[http://www.vasp.at/]]
+- Vasp manual: [[http://cms.mpi.univie.ac.at/vasp/vasp/vasp.html]]
 ** Cluster Expansions
 ** Visualization
+- Vesta: [[http://jp-minerals.org/vesta/en/]]
 ** Atomic Simulation Environment
-** Python
+- Software home: [[https://wiki.fysik.dtu.dk/ase/]]
+- Useful paper: [[https://doi.org/10.1088/1361-648X/aa680e]]
+** Programming environments
+- Anaconda, a python distribution and package management system: [[https://www.anaconda.com/]]
+- Jupyter, a web-based notebook/programming environment: [[http://jupyter.org/]]
+- org mode, an environment for use in emacs: [[https://orgmode.org/]]
 ** Document Creation
-- Emacs
-- LaTeX
+- emacs, a great text editor: https://www.gnu.org/software/emacs/
+- Scimax, a great repository for running emacs: [[https://github.com/jkitchin/scimax]]
+- LaTeX, a document formatting language
+- Google Doc is also recommended
 
 * Scripts
