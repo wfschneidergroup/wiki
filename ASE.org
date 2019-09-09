@@ -41,9 +41,9 @@ Install Anaconda 3.6 version in your system.
 Anaconda download page < https://www.anaconda.com/download/#linux >
 
 * ASE
-You can get the development version of ASE from https://gitlab.com/ase/ase.
+Install ASE using PIP
 #+BEGIN_SRC sh
-git clone https://gitlab.com/ase/ase.git 
+$ pip install --upgrade --user ase
 #+END_SRC 
 
 * Environment variables
