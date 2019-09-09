@@ -34,16 +34,16 @@ Please feel free to modify it.
 (typo, grammar, wrong information, etc)
 
 * Requirements
-** Python 2.7, 3.4-3.6 
-Install Anaconda 3.6 version in your system.
+** Python 2.7, 3.4-3.7 
+Install Anaconda 3.7 version in your system.
 - wget <download link>
 - sh <filename.sh>
 Anaconda download page < https://www.anaconda.com/download/#linux >
 
 * ASE
-You can get the development version of ASE from https://gitlab.com/ase/ase.
+Install ASE using PIP
 #+BEGIN_SRC sh
-git clone https://gitlab.com/ase/ase.git 
+$ pip install --upgrade --user ase
 #+END_SRC 
 
 * Environment variables
