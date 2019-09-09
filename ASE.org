@@ -34,8 +34,8 @@ Please feel free to modify it.
 (typo, grammar, wrong information, etc)
 
 * Requirements
-** Python 2.7, 3.4-3.6 
-Install Anaconda 3.6 version in your system.
+** Python 2.7, 3.4-3.7 
+Install Anaconda 3.7 version in your system.
 - wget <download link>
 - sh <filename.sh>
 Anaconda download page < https://www.anaconda.com/download/#linux >
