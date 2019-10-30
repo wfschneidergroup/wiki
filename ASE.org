@@ -33,10 +33,11 @@
 * Requirements
 ** Python 2.7, 3.4-3.7 
 Install Anaconda 3.7 version in your system.
-#+BEGIN SRC sh
+
+#+BEGIN_SRC sh
 $ wget <download link>
 $ sh <filename.sh>
-#+END SRC
+#+END_SRC
 Anaconda download page < https://www.anaconda.com/download/#linux >
 
 * ASE
