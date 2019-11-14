@@ -33,12 +33,10 @@
 * Requirements
 ** Python 2.7, 3.4-3.7 
 Install Anaconda 3.7 version in your system.
-
-#+BEGIN_SRC sh
-$ wget <download link>
+#+BEGIN SRC sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 $ sh <filename.sh>
-#+END_SRC
-Anaconda download page < https://www.anaconda.com/download/#linux >
+#+END SRC
 
 * ASE
 Install ASE using PIP
@@ -74,16 +72,16 @@ module load vasp/5.3.5
 module load emacs
 
 #ASE
-export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/ase:$PYTHONPATH
-export PATH=/afs/crc.nd.edu/user/j/jko1/ase/tools:$PATH
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jcrum/.local/lib/python3.7/site-packages/:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jcrum/.local/lib/python3.7/site-packages/ase/tools:$PATH
 
 # VASP
-export VASP_PP_PATH=/afs/crc.nd.edu/user/j/jko1/new_POTCARs/
-export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/vasp:$PYTHONPATH
-export PATH=/afs/crc.nd.edu/user/j/jko1/vasp/bin:$PATH
+export VASP_PP_PATH=/afs/crc.nd.edu/user/w/wschnei1/Group/new_POTCARs/
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jcrum/vasp:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jcrum/vasp/bin:$PATH
 
 #Anaconda
-export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda2/bin:$PATH
+export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda3/bin:$PATH
 #+END_SRC
 
 
