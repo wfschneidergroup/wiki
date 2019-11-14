@@ -27,18 +27,16 @@
 \doublespace
 
 
-#+AUTHOR: Jeonghyun Ko
+#+AUTHOR: Jeonghyun Ko, Jerry Crum
 \maketitle
-
-Please feel free to modify it. 
-(typo, grammar, wrong information, etc)
 
 * Requirements
 ** Python 2.7, 3.4-3.7 
 Install Anaconda 3.7 version in your system.
-- wget <download link>
-- sh <filename.sh>
-Anaconda download page < https://www.anaconda.com/download/#linux >
+#+BEGIN_SRC sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+$ sh <filename.sh>
+#+END_SRC
 
 * ASE
 Install ASE using PIP
@@ -66,56 +64,24 @@ fi
 PS1="[\u@\h:\W]$ "
 
 #Additional aliases
-# User specific aliases and functions
-alias ls='ls --color=auto'
-alias c='clear'
-alias e='emacs'
-alias cls='clear;ls'
-alias ebash='emacs ~/.bash_profile'
-alias sbash='source ~/.bash_profile'
-alias rm='rm -f'
-alias mystat='qstat -u jko1'
-alias emacs='emacs -l ~/scimax/init.el'
-alias mytop='top -u jko1'
-alias ..='cd ..'
-alias ...='cd ../../'
-alias cds='cd /scratch365/jko1'
 
 #Additional modules
-# Latex
+
 module load texlive
 module load vasp/5.3.5
 module load emacs
-#ASE
-export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/ase:$PYTHONPATH
-export PATH=/afs/crc.nd.edu/user/j/jko1/ase/tools:$PATH
 
-#CATMAP
-# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/catmap:$PYTHONPATH
+#ASE
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jcrum/.local/lib/python3.7/site-packages/:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jcrum/.local/lib/python3.7/site-packages/ase/tools:$PATH
 
 # VASP
-export VASP_PP_PATH=/afs/crc.nd.edu/user/j/jko1/new_POTCARs/
-export PYTHONPATH=/afs/crc.nd.edu/user/j/jko1/vasp:$PYTHONPATH
-export PATH=/afs/crc.nd.edu/user/j/jko1/vasp/bin:$PATH
-
-# ASE ADDONS
-# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/ase_addons:$PYTHONPATH
-
-# AMP
-# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/amp/amp:$PYTHONPATH
-# export PYTHONPATH=~/amputils:$PYTHONPATH
-
-# Utils
-# export PYTHONPATH=/afs/crc.nd.edu/user/p/pmehta1/research:$PYTHONPATH
-
-# VTST Scripts
-export PATH=/afs/crc.nd.edu/user/j/jko1/vtstscripts-928/:$PATH
-
-# VESTA
-export PATH=/afs/crc.nd.edu/user/j/jko1/VESTA-x86_64:$PATH
+export VASP_PP_PATH=/afs/crc.nd.edu/user/w/wschnei1/Group/new_POTCARs/
+export PYTHONPATH=/afs/crc.nd.edu/user/j/jcrum/vasp:$PYTHONPATH
+export PATH=/afs/crc.nd.edu/user/j/jcrum/vasp/bin:$PATH
 
 #Anaconda
-export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda2/bin:$PATH
+export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda3/bin:$PATH
 #+END_SRC
 
 
@@ -124,22 +90,18 @@ export PATH=/afs/crc.nd.edu/user/j/jko1/anaconda2/bin:$PATH
 You can download vasp thrugh Prateek's github page. It is similar to John's original vasp wrapper, but patched to work with the Notre Dame job submission engine. You should compare John's version and this version to see how they are different.
 
 #+BEGIN_SRC sh
-git clone https://github.com/prtkm/vasp.git
+$ git clone https://github.com/jtcrum/vasp.git
 #+END_SRC
-go to the vasp folder, then switch to sge-py3 branch.
+go to the vasp folder, then switch to SLURM-py3 branch.
 #+BEGIN_SRC sh
-git checkout SGE-py3
+$ git checkout SLURM-py3
 #+END_SRC
 You can see this message.
 #+BEGIN_SRC sh
 Branch SGE-py3 set up to track remote branch SGE-py3 from origin.
 Switched to a new branch 'SGE-py3'
 #+END_SRC
-Maybe there may be some incompatibility between this vasp version and the latest ASE.\\
-If you think there are incompatibilities, let Prateek know.
  
-** download POTCAR
-You need to have potential files of elements for your calculations. Download POTCAR folder in your home directory. Ask any one of the group members for POTCAR.
 ** vasprc
 Like bashrc, we need a configuration file for submitting a job to server.\\
 In your home directory, type this to make the vasprc
@@ -149,19 +111,19 @@ emacs -nw ~/.vasprc
 Then copy and paste this content.\\
 Note that you need to change user name and email! 
 #+BEGIN_SRC sh
-# jasp configuration file
-
 # adjust these for the your system
 
 vasp.executable.serial = vasp
 vasp.executable.parallel = vasp
 
-user.name = jko1
-user.email = jko1@nd.edu
+user.name = jcrum
+user.email = jcrum@nd.edu
+
 
 mode = queue   # run|queue|None
 
 multiprocessing.cores_per_process = None
+
 
 # these are only needed if you run in a queue. Setting a few defaults here. SGE needs nprocs, q, pe.
 
@@ -172,13 +134,13 @@ queue.options = -j y
 queue.time = 168:00:00
 queue.nodes = 1
 queue.ppn = 1
-queue.nprocs = 8
+queue.nprocs = 4
 queue.mem = 2G
 queue.jobname = None
-queue.q = *@@schneider_q16copt
+queue.q = *long
 queue.pe = smp
 vdw_kernel.bindat = /afs/crc.nd.edu/x86_64_linux/vasp/5.3.5/ompi1.6.3/vdw_kernel.bindat
-module=vasp/5.3.5
+module=vasp/5.4.1[jcrum@crcfe01:vasp]$
 #+END_SRC
 
 * Scimax
