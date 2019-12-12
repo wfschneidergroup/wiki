@@ -5,7 +5,7 @@ Several things need to happen when you first join the group, as listed below. Se
 
 ** Administrative
 - Get a seat in an office with a computer.
-- Get card access to Fitzpatrick Hall on [[https://irish1card.nd.edu/pin/][Campus ID Card Pin]] website. When in use, contact the card to the card reader outside the entrance of the building, then key in your 4-digit pin to unlock the door.
+- Get card access to Nieuwland Hall on [[https://irish1card.nd.edu/pin/][Campus ID Card Pin]] website. When in use, contact the card to the card reader outside the entrance of the building, then key in your 4-digit pin to unlock the door.
 - Get card access to CoMSEL office from Lisa (email: lellam@nd.edu) in the CBE department office.  
 - Set up an account with the Center for Research Computing (CRC).
 - Attend first time user workshop at CRC. Register at [[https://crc.nd.edu/index.php/news-events/calendar][CRC workshops]].
@@ -34,7 +34,8 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 
 Additional relevant skills:
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
-- [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
+- Make an account with [[https://www.zotero.org/user/register][Zotero]] and get added to Dr. Schneider's Zotero Group.
+- [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aff058fcc-c578-44a2-ae85-1ea78218edec][Make a Python program that evaluates a simple KMC model]]
 - [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
 - Be familiar with emacs (org-mode).
 - Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
