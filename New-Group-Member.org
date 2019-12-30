@@ -34,6 +34,7 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 
 Additional relevant skills:
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
+	[[http://hisham.hm/2016/01/01/how-to-make-a-pull-request-on-github-a-quick-tutorial/][A quick tutorial]]
 - [[https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo][Make a Python program that evaluates a simple KMC model]]
 	1) Compare the analytical solution to the KMC model (in the same graph)
 	2) Plot the reaction time and the maximum number of B vs iteration
