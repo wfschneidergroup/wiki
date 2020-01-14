@@ -34,8 +34,13 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 
 Additional relevant skills:
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
+	[[http://hisham.hm/2016/01/01/how-to-make-a-pull-request-on-github-a-quick-tutorial/][A quick tutorial]]
 - Make an account with [[https://www.zotero.org/user/register][Zotero]] and get added to Dr. Schneider's Zotero Group.
 - [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aff058fcc-c578-44a2-ae85-1ea78218edec][Make a Python program that evaluates a simple KMC model]]
+ 	1) Compare the analytical solution to the KMC model (in the same graph)
+ 	2) Plot the reaction time and the maximum number of B vs iteration
+ 	3) Change the values of k1&k2 to check the reliability
+ 	4) Upload the file to CRC
 - [[https://github.com/wfschneidergroup/computational-chemistry][Work on homeworks 2, 5, and 6 from the Computational Chemistry page]]
 - Be familiar with emacs (org-mode).
 - Visit [[./DFT.org][DFT basics]] page to start learning about DFT.
