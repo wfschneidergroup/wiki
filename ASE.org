@@ -42,8 +42,10 @@ The new version of Python 3.8 might not be compatible to John Kitchin's VASP.
 Install Python 3.7.3
 
 #+BEGIN_SRG sh
- conda install python=3.7.3 anaconda=custom
+$ conda install python=3.7.3 anaconda=custom
 #+END_SRC
+
+
 
 * ASE
 Install ASE using PIP
