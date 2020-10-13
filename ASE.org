@@ -49,7 +49,8 @@ Install ASE using PIP
 $ pip install --upgrade --user ase
 #+END_SRC 
 
-Also, this new verson of ASE might not be compatible to John's VASP. Install ASE 3.16.0.
+Also, this new verson of ASE might not be compatible to John's VASP. 
+Install ASE 3.16.0.
 Get the ase.tar.gr file from the group memeber and upload it to the CRC. 
 
 Unpake tar-file.
