@@ -38,6 +38,10 @@ $ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 $ sh <filename.sh>
 #+END_SRC
 The new version of Python 3.8 might not be compatible to John Kitchin's VASP. Install Python 3.7.3
+#+BEGIN_SRC sh
+$ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+$ sh <filename.sh>
+#+END_SRC
 #+BEGIN_SRG sh
 $ conda install python=3.7.3 anaconda=custom
 #+END_SRC
