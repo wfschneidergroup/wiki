@@ -57,7 +57,8 @@ Unpake tar-file.
 #+BEGIN_SRC sh
 tar -xf ase-3.16.0.tar.gr
 #+END_SRC
- 
+Add ~/ase to PYTHONPATH environment variable and add ~/ase/bin to PATH (assuming ~/ase is where ASE folder is).
+
 * Environment variables
 ** bashrc
 Add PATH and PYTHONPATH for ASE in your bashrc.\\
