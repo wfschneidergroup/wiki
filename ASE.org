@@ -38,12 +38,25 @@ $ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 $ sh <filename.sh>
 #+END_SRC
 
+The new version of Python 3.8 might not be compatible to John Kitchin's VASP. Install Python 3.7.3
+#+BEGIN_SRG sh
+$ conda install python=3.7.3 anaconda=custom
+#+END_SRC
+
 * ASE
 Install ASE using PIP
 #+BEGIN_SRC sh
 $ pip install --upgrade --user ase
 #+END_SRC 
 
+Also, this new verson of ASE might not be compatible to John's VASP. Install ASE 3.16.0.
+Get the ase.tar.gr file from the group memeber and upload it to the CRC. 
+
+Unpake tar-file.
+#+BEGIN_SRC sh
+tar -xf ase-3.16.0.tar.gr
+#+END_SRC
+ 
 * Environment variables
 ** bashrc
 Add PATH and PYTHONPATH for ASE in your bashrc.\\
