@@ -12,10 +12,10 @@ Several things need to happen when you first join the group, as listed below. Se
 - Contact the CRC to be added to the user list for the Schneider queues (CRCSupport@nd.edu).
 - Contact the CRC to be put on the approved list for VASP, ADF, or whichever software you will be using.
 - For Linux workstations, make sure you're added to the /etc/password list by Dr. Schneider after joining the group.
-- Make sure you have access to the group AFS space. To do so, log in to CRC server and type "/afs/crc.nd.edu/user/w/wschnei1/Group/" in your terminal. You have access if you're able to access this folder.
+- Make sure you have access to the group AFS space. To do so, log in to CRC server and go to the following directory: "/afs/crc.nd.edu/user/w/wschnei1/Group/" in your terminal. You have access if you're able to access this folder.
 - Set up printers from CoMSEL from your personal computer.
 - Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
-- Print and fill out [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A46977729-e024-4a5a-8502-debee6ceb4d9][key form]] to get your office key.
+- Print and fill out [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A46977729-e024-4a5a-8502-debee6ceb4d9][key form]] to get your office key. Update: You can send your request using to Dawn Varleye [[https://nd.qualtrics.com/jfe/form/SV_0jMVyTVLScFqUfP][here]] 
 
 
 ** Individual 
