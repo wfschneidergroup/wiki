@@ -15,7 +15,8 @@ Several things need to happen when you first join the group, as listed below. Se
 - Make sure you have access to the group AFS space. To do so, log in to CRC server and go to the following directory: "/afs/crc.nd.edu/user/w/wschnei1/Group/" in your terminal. You have access if you're able to access this folder.
 - Set up printers from CoMSEL from your personal computer.
 - Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
-- Print and fill out [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A46977729-e024-4a5a-8502-debee6ceb4d9][key form]] to get your office key. Update: You can send your request using to Dawn Varleye [[https://nd.qualtrics.com/jfe/form/SV_0jMVyTVLScFqUfP][here]] 
+- Print and fill out [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A46977729-e024-4a5a-8502-debee6ceb4d9][key form]] to get your office key. Update: To request a key from Dawn Verleye in 149E Stephan Hall, you can submit the key request form [[https://nd.qualtrics.com/jfe/form/SV_0jMVyTVLScFqUfP][here]] 
+
 
 
 ** Individual 
@@ -40,6 +41,7 @@ If unfamiliar with Linux, the following tutorials may be helpful:
 Additional relevant skills:
 - [[https://guides.github.com/activities/hello-world/][Become familiar with GitHub forking and "pull request"]]
 	[[http://hisham.hm/2016/01/01/how-to-make-a-pull-request-on-github-a-quick-tutorial/][A quick tutorial]]
+- [[https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token][How to create a personal access token]]
 - Make an account with [[https://www.zotero.org/user/register][Zotero]] and get added to Dr. Schneider's Zotero Group.
 - [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Aff058fcc-c578-44a2-ae85-1ea78218edec][Make a Python program that evaluates a simple KMC model]]
  	1) Compare the analytical solution to the KMC model (in the same graph)
