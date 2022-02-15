@@ -35,7 +35,7 @@ module load orca    # Atoms centered Basis DFT and HF code
 
 You can always remove a module through the `module unload` command. Word of warning, Anaconda causes some issues with Fastx. As such, I suggest using the CRCs version of python. Others may have different opinions. 
 
-[<<< Intro](bashrc1.md)
+[<<< Intro](README.md)
 
 [<<< Alliases](bashrc2.md)
 

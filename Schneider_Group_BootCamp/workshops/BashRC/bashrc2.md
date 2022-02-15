@@ -32,7 +32,7 @@ You can always remove an aliase during your current session by typing `unalias c
 
 There are more aliases you can add such as 'ssh login' or 'cd to your scratch 365 directories'. You can add aliases for a wide variety of purposes an should to help streamline your work.
 
-[<<< Intro](bashrc1.md)
+[<<< Intro](README.md)
 
 [Modules >>>](bashrc3.md)
 
