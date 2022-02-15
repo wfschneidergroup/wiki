@@ -12,7 +12,7 @@ You should have a set directory to store all your scripts that you want to use. 
 mkdir ~/scripts
 ```
 
-There is a folder in the Schneider Group Folder called [Useful Scripts](../../../../Useful_Scripts). Copy the nodestats.py script from here into your `scripts` directory. 
+There is a folder in the Schneider Group Folder called [Useful Scripts](../../../Useful_Scripts). Copy the nodestats.py script from here into your `scripts` directory. 
 
 Open your bashrc file and add the folloing lines of code.
 
@@ -29,7 +29,7 @@ $PATH is a variable that contains the path (or direction) to executable files on
 
 Now, any script you place in this folder is executable from any location/folder you are in. You can execute the script by typing `nodestats.py` (or add an aliase to change the command).
 
-Feel free to add any script in the [Useful Scripts](../../../../Useful_Scripts) folder or add your own!
+Feel free to add any script in the [Useful Scripts](../../../Useful_Scripts) folder or add your own!
 
 ## Conclusion
 
