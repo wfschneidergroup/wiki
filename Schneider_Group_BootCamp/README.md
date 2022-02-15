@@ -43,4 +43,4 @@ Craig: LaTeX, GitHub, Submitting hundreds of DFT jobs at a single time
 
 [LaTeX](workshops/LaTeX/latex.md)
 
-[bashrc](workshops/BashRC/bashrc1.md)
+[bashrc](workshops/BashRC/README.md)
