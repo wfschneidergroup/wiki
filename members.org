@@ -1,6 +1,16 @@
 Return to [[./README.org][Main Page]].
 (Would be nice to pretty this up.)
 
+** Lead Investigator
+*** Willaim Schneider
+
+![Willaim Schneider]
+![Willaim Schneider](https://wfschneidergroup.github.io/group_data/people_photos/wschnei1.JPG)
+- Dorini Family Chair in Energy Studies
+- Department Chair, Chemical and Biomolecular Engineering
+- Concurrent Professor, Chemistry and Biochemistry
+- Executive Editor, Journal of Physical Chemistry C, American Chemical Society
+
 
 ** Current Graduate Students 
 - Craig Waitt (First-Principles Free Energy Calculations)
