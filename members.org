@@ -2,24 +2,18 @@ Return to [[./README.org][Main Page]].
 (Would be nice to pretty this up.)
 
 
-** Current Graduate Students
-- Anshuman Bajpai (2013 Chemical Engineering)
-- Hui Li (2014 Chemical Engineering)
-- Sichi Li (2015 Chemical Engineering)
-- Prateek Mehta (2015 Chemical Engineering)
-- Gray Laughlin (2016 Chemical Engineering)
-- Jeonghyun Ko (2016 Chemical Engineering)
-- Yujia Wang (2016 Chemistry)
-- Anshuman Goswami (2017 Chemical Engineering)
-- Jerry Crum (2017 Chemical Engineering)
-- Neha Mehra (2017 Chemical Engineering)
-- Craig Waitt (2017 Chemistry)
-- Jian Ren Lim (2018 Chemical Engineering)
-- Yixiao Hou (2018 Chemical Engineering)
+** Current Graduate Students 
+- Craig Waitt (First-Principles Free Energy Calculations)
+- Anshuman Goswami (KMC simulation of heterogeneous catalytic reactions)
+- Neha Mehra (Zeolites for Hydrocarbon Oligomerization)
+- Wei Ge (Catalysis in Zeolites)
+- Xuyao Gao (Catalysis in Zeolites)
+- Chuang Yan (Nitrogen Plasma Catalysis)
+- Amish Chovatiya (Ammonia Oxidation Kinetics)
+- Denver Haycock (Plasma Catalysis)
+- Jose Rebolledo Oyarce (Catalysis in Zeolites)
+- Raghav Saxena (Catalysis in Zeolites)
 
-** Current Post-doctoral Associates
-- Dr. Hanyu Ma
-- Dr. Joseph Zhao
 
 ** Former M.Sc. Students
 - 5 :: Solomon Assefa, ",", April 2016.
