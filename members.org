@@ -1,8 +1,6 @@
 Return to [[./README.org][Main Page]].
 (Would be nice to pretty this up.)
-[[https://ik.imagekit.io/ikmedia/women-dress-2.jpg]
-width="150"
-height="200"/]
+
 ** Lead Investigator
 *** Willaim Schneider
 - Dorini Family Chair in Energy Studies
