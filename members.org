@@ -1,64 +1,102 @@
 Return to [[./README.org][Main Page]].
 (Would be nice to pretty this up.)
 
+** Lead Investigator
+*** Willaim Schneider
+- Dorini Family Chair in Energy Studies
+- Department Chair, Chemical and Biomolecular Engineering
+- Concurrent Professor, Chemistry and Biochemistry
+- Executive Editor, Journal of Physical Chemistry C, American Chemical Society
 
-** Current Graduate Students
-- Anshuman Bajpai (2013 Chemical Engineering)
-- Hui Li (2014 Chemical Engineering)
-- Sichi Li (2015 Chemical Engineering)
-- Prateek Mehta (2015 Chemical Engineering)
-- Gray Laughlin (2016 Chemical Engineering)
-- Jeonghyun Ko (2016 Chemical Engineering)
-- Yujia Wang (2016 Chemistry)
-- Anshuman Goswami (2017 Chemical Engineering)
-- Jerry Crum (2017 Chemical Engineering)
-- Neha Mehra (2017 Chemical Engineering)
-- Craig Waitt (2017 Chemistry)
-- Jian Ren Lim (2018 Chemical Engineering)
-- Yixiao Hou (2018 Chemical Engineering)
+** Current Graduate Students 
+| *Member* | *Topic of Interest* |
+| Craig Waitt | First-Principles Free Energy Calculations |
+| Anshuman Goswami | KMC simulation of heterogeneous catalytic reactions |
+| Neha Mehra | Zeolites for Hydrocarbon Oligomerization |
+| Wei Ge | Catalysis in Zeolites |
+| Xuyao Gao | Catalysis in Zeolites |
+| Chuang Yan | Nitrogen Plasma Catalysis |
+| Amish Chovatiya | Ammonia Oxidation Kinetics |
+| Denver Haycock | Plasma Catalysis |
+| Jose Rebolledo Oyarce | Catalysis in Zeolites |
+| Raghav Saxena | Catalysis in Zeolites |
 
-** Current Post-doctoral Associates
-- Dr. Hanyu Ma
-- Dr. Joseph Zhao
+** Ph.D. Alumni
+| *Alumni* | *Information* | *Current Affiliation*|
+| Dr. Yujia Wang | Chemistry Ph.D. 2022 | Assist. Prof., Bethel U. |
+| Dr. Jerry Crum | CBE Ph.D. 2022 | Systems Planning and Analysis |
+| Dr. Jeonghyun Ko | CBE Ph.D. 2021 | SK On |
+|	Dr. Sichi Li | CBE Ph.D. 2019 | LLNL |
+| Dr. Prateek Mehta | CBE Ph.D. 2019 | ExxonMobil |
+|	Dr. Hui Li | CBE Ph.D. 2018 | Cummins |
+|	Dr. Anshumaan Bajpai | CBE Ph.D., 2017 | Intel |
+| Dr. Quintin Sheridan | CBE Ph.D., 2017 | | 
+| Dr. Chris Paolucci | CBE Ph.D., 2017 | Asst. Prof., U of Virginia |
+| Dr. Laura Herder | CBE Ph.D., 2015 | UW - Lacrosse |
+| 	Dr. Trunojoyo Anggara | CBE Ph.D., 2015 | Notre Dame |
+| Dr. Michael Penninger | CBE Ph.D., 2015 | UOP |
+|	Dr. John Clay | CBE Ph.D., 2014 | U. Missouri |
+| Dr. Jason Bray | CBE Ph.D., 2013 | Phillips 66 |
+| Dr. Dorrell McCalman | CBE Ph.D., 2013 | Notre Dame |
+| Dr. David Schmidt | CBE Ph.D., 2012 | Google |
+| Dr. Elaine Mindrup | CBE Ph.D., 2011 | US PTO |
+|	Dr. Hangyao Wang | CBE Ph.D., 2009 | Dow Chemical Company |
+| Dr. Rachel Getman | CBE Ph.D., 2009 | Assoc. Prof., Clemson U. |
 
-** Former M.Sc. Students
-- 5 :: Solomon Assefa, ",", April 2016.
-- 4 :: Steven McDonough, M.Sc.\nbsp{}Thesis "Using Through-Space, Dipole-Dipole, and CO-d-band Interactions to Predict the Formation Energy of CO/Pd(111) Configurations," February 2015.
-- 3 :: Michelle Morton, M.Sc.\nbsp{}Thesis, "Effects Of Nitrogen Based Anions On CO2 Binding And Proton Affinity," May 2013.
-- 2 :: Mandelle Danser, M.Sc.\nbsp{}Thesis "Beyond the Gas Phase: Towards Modeling Bulk Ionic Liquids with a Comparison of Density Functional Tight Binding  (DFTB) to Density Functional Theory (DFT)," December 2010.
-- 1 :: Wenguang Lin, M.Sc.\nbsp{}thesis "DFT Simulations of \ce{Re_3} Metal Cluster Binding on Alumina in Hydrogen Environments," December 2008.
+** M.Sc. Alumni
+| *Alumni* | *Information* | *Thesis Title* |
+| Jian Ren Lim | CBE M.Sc., 2021 | First-Principles Interrogation of H2 Reduction Mechanisms on Copper Active Sites in Cu-SSZ-13 Zeolite |
+| Amanda Brown | 	CBE M.Sc., 2021 | Microkinetic Modeling of HCN Formation from Methane and Nitrogen with the Addition of Vibrational Energy Effects |
+| Gray N Laughlin | 	CBE M.Sc., 2018 |  |
+| Solomon Assefa | Chemistry M.Sc., 2016 | Elucidating Thermodynamics and Kinetics of CO-Oxidation-Induced Missing-Row Reconstruction of Ph(110) via DFT Methods |
+| Steven McDonough | Chemistry M.Sc., 2015 | Using Through-Space, Dipole-Dipole, and CO-d-band Interactions to Predict the Formation Energy of CO/Pd(111) Configurations |
+| Michelle Morton | Chemistry M.Sc., 2013	 | Effects of Nitrogen Based Anions on CO2 Binding and Proton Affinity |
+| Mandelle Danser | 	Chemistry M.Sc., 2011 | Beyond the gas phase: towards modeling bulk ionic liquids with a comparison of Density Functional Tight Binding (DFTB) to Density Functional Theory (DFT) |
+| Wenguang Lin  | Chemistry M.Sc., 2009 | DFT Simulations of Re3 Cluster Catalysts |
 
-** Former Ph.D. Students
-- 12 :: Dr.\nbsp{}Quintin Sheridan, "Simulation Study of CO2-Reactive Aprotic Heterocyclic Anion Ionic Liquids: Water Interactions, Liquid Structure, and CO2 Solubility," [[https://curate.nd.edu/show/44558c99p04]], April 2017.
-- 11 :: Dr.\nbsp{}Christopher Paolucci, "Theoretical and Computational Modeling of the Selective Catalytic Reduction of NOx in Cu-SSZ-13 Zeolites," [[https://curate.nd.edu/show/r781wd39s26]], April 2017.
-- 10 :: Dr.\nbsp{}Laura Herder, "Nucleation of Surface Platinum Oxide on Pt(111)," August 2015.  Currently UW-Lacrosse.
-- 9 :: Dr.\nbsp{}Trunojoyo Anggara, "First-Principles Study of NO Oxidation on Cu-Exchanged SSZ-13 Zeolite Catalysts," August 2015. Currently Notre Dame.
-- 8 :: Dr.\nbsp{}Michael Penninger, "Simulation of NO Oxidation Catalysis on Perovskite Catalysts," May 2015. Currently UOP.
-- 7 :: Dr.\nbsp{}John Clay, "Comparison Of Palladium And Platinum Water Gas Shift Reaction Kinetics Using Density Functional Theory Models," August 2014.  ERC, Incorporated.
-- 6 :: Dr.\nbsp{}Dorrell McCalman, Dissertation "Simulation of Aqueous Phase NOx Reduction over Pd Catalysts," April 2013.
-- 5 :: Dr.\nbsp{}Jason M.\nbsp{}Bray, Dissertation "Adsorbate Coverage Dependence In Heterogeneous Catalysis: Kinetics Of Oxygen Adsorption On Platinum Surfaces From First Principles," April 2013.  Currently Phillips 66.
-- 4 :: Dr.\nbsp{}David J.\nbsp{}Schmidt, Ph.D., dissertation "Cluster Expansion Studies Of Oxygen Adsorption On Transition Metal Surfaces," December 2012.
-- 3 :: Dr.\nbsp{}Elaine Mindrup, Ph.D.\nbsp{}dissertation "Discovery of New Ionic Liquids for CO2 Capture," May 2011.  Currently Patent Examiner, US Patent and Trademark Office.
-- 2 :: Dr.\nbsp{}Hangyao Wang, Ph.D.\nbsp{}dissertation "Simulation of Catalytic Oxidation over Transition Metal Oxides," September 2009.  Currently research scientist, Dow Chemical Company.
-- 1 :: Dr.\nbsp{}Rachel Getman.  Ph.D.\nbsp{}dissertation, "First Principles Models of NO Oxidation Catalysis," May 2009.  Currently Assistant Professor, Clemson University.
+** Undergraduate Alumni
+| *Alumni* | *Information* | *Current Affiliation* | *Thesis Title* |
+| Andrew Lehmer | Undergrad researcher 2016-2017 | Phigenics | Adsorbate free energies |
+| Sean Dwyer | Undergrad researcher 2013-2015 | Graduate school | Charge distributions in ionic liquids |
+| Patrick Connelly | Undergrad researcher 2012-2014 |  | Periodic trends in zeolite chemistry |
+| Jimmy Carlsten | CHUST visitor Summer 2014 |  | RIT Stockholm Sulfur adsorption on perovskites |
+| Kate Bowie | Undergrad researcher 2013-2014	 |  | Natural bond order analyses |
+| Sam Mingo | Undergrad researcher 2013 |  | Ionic liquids for CO2 capture |
+| Ryan Anderson | Undergrad researcher 2012-2013 |  | Cu dimers in SSZ-13 catalysts |
+| Mark Sullivan | Undergrad researcher 2011-2012 | University of Minnesota grad. school | Carbenes for CO2 capture |
+| Jennifer Smith | Undergrad researcher 2011-2012 | ExxonMobil | XPS of oxygen on Pt |
+| Allison Hamman | 	Undergrad researcher 2011-2012 |  | Phase change ionic liquids |
+| Jonathan Conway | 	Undergrad researcher 2009-2010 | NC State graduate school | Adsorbate-adsorbate electronic interaction modeling |
+| Thomas Senftle | Undergrad researcher 2009-2010 |	Penn. State grad. school | AHA Ionic Liquids for CO2 capture |
+| Martin Beres | 	Undergrad researcher 2009-2010 | Ohio State U. grad. school | 	Cluster expansions of surface adsorption |
+| Shawn Coleman | Undergrad researcher 2007-2009 | U. Arkansas grad. school | Metal cluster calculations |
+| Nate Menendez | Undergrad. researcher 2008-2009 |	Air Products | DFT calculations of NDMA decomposition |
+| Danny Beyrer | 	Undergrad. researcher Summer 2008 |	Rose-Hulman | NO adsorption on Pd and Pd alloys |
+| Miriam Shakalli Tang | Undergrad. researcher Summer 2008 | Ohio State University |  |
+| Jessica Nadai | Undergrad. researcher 2006-2007 | BP | DFT Calculations of Oxygen Adsorption on Gold, Iridium, and Nickel |
+| Josh Bruce | Undergrad. researcher 2006-2007 | Travelers | 	Cl Atom Reactions with iso-Propanol |
 
-** Past Post-doctoral Associates
-- 16 :: Dr.\nbsp{}Onise Sharia, Bank of America
-- 15 :: Dr.\nbsp{}TaeBum Lee, unaffiliated
-- 14 :: Dr.\nbsp{}Kurt Frey, Institute for Disease Modeling
-- 13 :: Dr.\nbsp{}Houyu Zhu, Lecturer, Tsingdao University
-- 12 :: Dr.\nbsp{}Sonia Antony, unaffiliated
-- 11 :: Dr.\nbsp{}Shuguang Zhang, Assoc.\nbsp{}Prof., Shandong University
-- 10 :: Dr.\nbsp{}Vladimir Pomogaev, Assoc.\nbsp{}Prof., Tomsk State University
-- 9 :: Dr.\nbsp{}Katie Maerzke, research scientist, Los Alamos National Lab
-- 8 :: Prof.\nbsp{}Jean-Sabin McEwen, Asst.\nbsp{}Prof., Washington State University
-- 7 :: Dr.\nbsp{}Zhengzheng Chen, research associate, CSU-Northridge
-- 6 :: Prof.\nbsp{}Chao Wu, Xi'an Jiaotong University
-- 5 :: Prof.\nbsp{}Bhabani Mallik, Asst.\nbsp{}Prof., Indian Institute of Technology Hyderabad, India
-- 4 :: Dr.\nbsp{}Victor Ranea, currently Conicet Argentina.
-- 3 :: Dr.\nbsp{}Abhijit Phatak, currently Intel Corp.
-- 2 :: Dr.\nbsp{}Li Xiao, currently Accelrys Corp.
-- 1 :: Dr.\nbsp{}Ye Xu, currently Asst.\nbsp{}Prof., Louisiana State University
 
-** Undergraduates Supervised
-Josh Bruce (CBE 2007), Jessica Nadai (CBE 2007), Shawn Coleman (CBE 2009), Nathaniel Menendez (CBE 2009), Andrea Baker (CBE 2009), Thomas Senftle (CBE 2010), Daniel Beyrer (Rose-Hulman, 2011), Miriam Shakalli Tang (CBE 2011), Martin Beres (CBE 2010), Kevin McNamara (CBE 2012), Steven Woltornist (Franciscan University, 2011), Nicklas Hjalmarsson (RIT Sweden, 2012), Mark Sullivan (CBE 2012), Jonathon Conway (CBE 2011), Jennifer Smith (CBE 2012), Ryan Anderson (CBE 2013), Allison Hamman (CBE 2012), Anna-Maria Eriksson (RIT Sweden, 2012), Brian Brady (Penn State 2014), Kate Bowie (CBE 2014), Samuel Mingos (CBE 2014), Sean Dwyer (CBE 2015), Patrick Connelly (CBE 2015), Andrew Lehmer (CBE 2017)
+** Former Post-doctoral Associates
+| *Alumni* | *Information* | *Current Affiliation* | *Research Topic* |
+| Dr. Haoran He | Post-doc, 2021-2021 |	BASF | Zeolite catalysis |
+| Dr. Hanyu Ma | Post-doc, 2017-2021, Assistant Research Professor, 2021-2022 | Google | Heterogeneous and plasma catalysis |
+| Dr. Zhenghang Zhao | 	Post-doc, 2018-2020 | Vanderbilt | Zeolite catalysis |
+| Dr. Tong Wu | Post-doc, 2017-2018 | Future Finance | 	Cluster Distributions in Zeolites |
+| Dr. Onise Sharia | Post-doc, 2014-2016 | 	Bank of America | 	Hybrid Perovskites |
+| Dr. Kurt Frey | Post-doc, 2013-2015 |  |  |
+| Dr. Dorrell McCalman | Post-doc, 2013-2014 |  |  |
+| Dr. Houyu Zhu | 	Post-doc, 2012-2014 |  |  |
+| Dr. Katie Maerzke | Post-doc, 2012-2014 | 	Los Alamos National Laboratory | 	Actinides in ionic liquids |
+| Mr. Xue-Sen Du | 	Visiting scientist, 2012-2013 | 	Chongqing University | 	Zeolite catalysis |
+| Dr. Shuguang Zhang | Visiting scientist, 2012 | 	Shandong University of Technology | 	Perovskite oxides |
+| Dr. Sonia Antony | 	Post-doc, 2011-2013 |  | 	CO2 reduction |
+| Dr. Jean-Sabin McEwen |	Research scientist, 2011-2012 |	Chemical Enginnering faculty, Washington State University |  |
+| Dr. Chao Wu | 	Research scientist, 2009-2012 | Chemistry faculty, Xi’an Jiaotong University |  |
+| Dr. ZhengZheng Chen | Post-doc, 2010-2011 | 	UCLA |  |
+| Dr. Bhabani Mallik | Post-doc, 2010-2011 | IIT Hyderabad - India |  |
+| Dr. Hannah Fox | Post-doc, 2009-2010 |  |  |
+| Dr. Victor Ranea | Visiting scientist, 2006-2009 | 	Conicet Argentina |  |
+| Dr. Abhijit Phatak | Post-doc, 2007-2008 | 	Intel Corp. |  |
+| Dr. Li Xiao	 | 	Post-doc, 2006-2007 | Accelrys Corp. |  |
+| Dr. Ye Xu |	Post-doc, 2004-2005 |	Chemical Engineering Faculty, Louisiana State |  |
