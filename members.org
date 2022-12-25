@@ -10,7 +10,6 @@ Return to [[./README.org][Main Page]].
 
 ** Current Graduate Students 
 | *Member* | *Topic of Interest* |
-| Craig Waitt | First-Principles Free Energy Calculations |
 | Anshuman Goswami | KMC simulation of heterogeneous catalytic reactions |
 | Neha Mehra | Zeolites for Hydrocarbon Oligomerization |
 | Wei Ge | Catalysis in Zeolites |
@@ -20,6 +19,12 @@ Return to [[./README.org][Main Page]].
 | Denver Haycock | Plasma Catalysis |
 | Jose Rebolledo Oyarce | Catalysis in Zeolites |
 | Raghav Saxena | Catalysis in Zeolites |
+| Michael Appoh | Catalysis of hydrocarbons |
+
+** Current Post-Doc 
+| *Member* | *Topic of Interest* |
+| Dr. Craig Waitt | First-Principles Free Energy Calculations |
+| Dr. Mingyuan Cao |
 
 ** Ph.D. Alumni
 | *Alumni* | *Information* | *Current Affiliation*|
