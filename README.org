@@ -44,6 +44,8 @@ When you are sick, please stay home.  No one in CoMSEL is interested in sharing 
 ** Group computers
 Group computers are hosted by the Center for Research Computing (CRC). For more information about CRC and running jobs, please visit [[http://crc.nd.edu][Notre Dame Center for Research Computing website]].
 
+Group members are to contact senior post-docs for replacement of computers and peripherals via email or slack.
+
 * Utilizing Group Computing Resources
 A guide to accessing and utilizing the group computing resources for VASP calculations can be found [[./Guide-To-Parallel-Computing.org][here]].
 * Group software
