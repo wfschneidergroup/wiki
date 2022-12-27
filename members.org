@@ -26,6 +26,11 @@ Return to [[./README.org][Main Page]].
 | Dr. Craig Waitt | First-Principles Free Energy Calculations |
 | Dr. Mingyuan Cao |
 
+** Current Post-Doc
+| *Member* | *Topic of Interest* |
+| Dr. Craig Waitt | First-Principles Free Energy Calculations |
+| Dr. Mingyuan Cao | Non-Thermal Plasma Catalysis Modeling |
+
 ** Ph.D. Alumni
 | *Alumni* | *Information* | *Current Affiliation*|
 | Dr. Yujia Wang | Chemistry Ph.D. 2022 | Assist. Prof., Bethel U. |
