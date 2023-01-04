@@ -21,11 +21,6 @@ Return to [[./README.org][Main Page]].
 | Raghav Saxena | Catalysis in Zeolites |
 | Michael Appoh | Catalysis of hydrocarbons |
 
-** Current Post-Doc 
-| *Member* | *Topic of Interest* |
-| Dr. Craig Waitt | First-Principles Free Energy Calculations |
-| Dr. Mingyuan Cao |
-
 ** Current Post-Doc
 | *Member* | *Topic of Interest* |
 | Dr. Craig Waitt | First-Principles Free Energy Calculations |
