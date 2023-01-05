@@ -158,6 +158,95 @@ vdw_kernel.bindat = /afs/crc.nd.edu/x86_64_linux/vasp/5.3.5/ompi1.6.3/vdw_kernel
 module=vasp/5.4.1[jcrum@crcfe01:vasp]$
 #+END_SRC
 
+* Using the ASE VASP Calculator
+Here I will show you how to use the built in Vasp calculator with ASE. There is a little bit of set up required.
+
+** Step 1:
+
+Put the run_vasp.py somewhere in your work space. An example of run_vasp.py is:
+
+#+BEGIN_SRC sh
+#!usr/bin/env python3
+## Import Libraries
+import os
+import subprocess
+import sys
+from ase.io import read,write
+
+## Define Node, Parallelization Method and Number of Cores
+q = '*@@schneider_q16copt'
+pe = 'mpi-64'
+nprocs =' 64'
+
+## Construct qscript file
+cwd = os.getcwd()
+script = """#!/bin/bash
+module load vasp
+cd {cwd}
+mpirun -np {nprocs} vasp_neb
+#end """.format(**locals())
+
+## Create qscript file
+qscript=os.path.join(cwd,'qscript')
+f = open(qscript,'w')
+f.write(script)
+f.close()
+
+
+## Submit job
+cmdlist = 'qsub -o {0} -j y -N {1} -q {2} -pe {3} {4} qscript'.format(cwd,cwd.split('/')[-1],q,pe,nprocs)
+
+os.system(cmdlist)
+#+END_SRC
+
+
+In the run_vasp.py file you can change two variables depending on how you want to submit jobs.
+
+q = '*@@schneider_q16copt'
+
+    change this to the queue you want to submit to
+
+pe = 'mpi-64 64'
+
+    change this to the parallel enviornment you want to use
+
+
+** Step 2:
+
+Add the following lines to your .bashrc:
+
+#+BEGIN_SRC sh
+export VASP_SCRIPT=~/path/to/run_vasp.py
+export VASP_PP_PATH=~/path/to/POTCARs
+#+END_SRC
+
+** Step 3:
+
+Here we have to modify the ase code a little bit. If you update ase these changes will go away. Luckily I have this reference sheet for you, so you can go back and fix it.
+Edit vasp Calculator Files
+
+The location of these files will depend on how you installed ASE, but if you installed it the way the website recomends the files will be in:
+
+#+BEGIN_SRC sh
+~/.local/lib/python3.x/site-packages/ase
+#+BEGIN_SRC sh
+
+    ase/calculators/vasp/creat_input.py
+        line 1070: change 'lda' to 'pbe'
+        the original line states:
+
+    p.update({'pp': 'lda'})
+
+    ase/calculators/vasp/vasp.py
+        comment out lines 330 & 331
+        these lines state:
+
+    self.update_atoms(atoms)
+    self.read_results()
+
+
+
+
 * Scimax
 Scimax is really helpful for us to use ASE as well as write some documents.\\
 I put Dr. Kitchin's (CMU) description of scimax.
