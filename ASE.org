@@ -231,17 +231,20 @@ The location of these files will depend on how you installed ASE, but if you ins
 ~/.local/lib/python3.x/site-packages/ase
 #+END_SRC
 
-+ase/calculators/vasp/create_input.py
-    ++line 1070: change 'lda' to 'pbe'
-        the original line states:
+- ase/calculators/vasp/create_input.py
+    - line 1070: change 'lda' to 'pbe', the original line states:
+        #+BEGIN_SRC sh
+        p.update({'pp': 'lda'})
+        #+END_SRC
+        
 
-    ++ p.update({'pp': 'lda'})
+- ase/calculators/vasp/vasp.py
+    - comment out lines 330 & 331, these lines state:
+        #+BEGIN_SRC sh
+        self.update_atoms(atoms)
+        self.read_results()
+        #+END_SRC
 
-+ase/calculators/vasp/vasp.py
-    +comment out lines 330 & 331, these lines state:
-
-    self.update_atoms(atoms)
-    self.read_results()
 
 
 
