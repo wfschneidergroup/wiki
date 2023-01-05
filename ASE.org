@@ -229,15 +229,15 @@ The location of these files will depend on how you installed ASE, but if you ins
 
 #+BEGIN_SRC sh
 ~/.local/lib/python3.x/site-packages/ase
-#+BEGIN_SRC sh
+#+END_SRC
 
-    ase/calculators/vasp/creat_input.py
+    *ase/calculators/vasp/creat_input.py
         line 1070: change 'lda' to 'pbe'
         the original line states:
 
     p.update({'pp': 'lda'})
 
-    ase/calculators/vasp/vasp.py
+    *ase/calculators/vasp/vasp.py
         comment out lines 330 & 331
         these lines state:
 
