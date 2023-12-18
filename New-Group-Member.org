@@ -16,8 +16,11 @@ Several things need to happen when you first join the group, as listed below. Se
 - Set up printers from CoMSEL from your personal computer.
 - Be added to the Schneider's Group Google Drive and CoMSEL supergroup mailing lists (correspondence: Dr. Whitmer).
 - Print and fill out [[https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A46977729-e024-4a5a-8502-debee6ceb4d9][key form]] to get your office key. Update: To request a key from Dawn Verleye in 149E Stephan Hall, you can submit the key request form [[https://nd.qualtrics.com/jfe/form/SV_0jMVyTVLScFqUfP][here]] 
+- Order computer/ accessories needed for your research!
 
+A compiled to-do list of the on-boarding process can be found in this google docs:
 
+https://docs.google.com/document/d/1FYI702TjvFcIbZTW1F8E0pRt0XetINwdUX0ESPo2KdQ/edit?usp=sharing
 
 ** Individual 
 Since new members may not receive a definite project right after joining the group, it is crucial that new members take this opportunity to learn the technical skills required in many of our researches in the group. First, students should make an effort in updating the group's Wiki page (this one!) by fork-ing pages that you want to make changes, make enough changes in your end, and submitting a "pull" request to the master page so that we can merge your changes into our page. Then, students should learn Python from countless website online. For beginners, [[https://www.youtube.com/watch?v=N4mEzFDjqtA][Python Youtube video from Derek Banas]] can be helpful. Also, there's one of the basic Python tutorials recommended: [[http://www.pallier.org/lectures/AIP2016/books/Beginning_Python_from_Novice_to_pro.pdf][Beginning Python: From Novice to Professional.]] Once you get up to speed, please familiarize yourself with the Atomic Simulation Environment (ASE) platform. For instance, read this paper published by [[http://iopscience.iop.org/article/10.1088/1361-648X/aa680e/meta][Hjorth Larsen et al. ]] and be familiar with the instructions in our group's [[https://github.com/JianRenLim/wiki/blob/master/ASE.org][ASE Page]].Next, attend significant amount of meetings that are relevant to your research area(s). Lastly, take self-initiative in reading papers and updating yourself with the latest progress in your area(s).
